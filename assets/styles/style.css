@@ -28,6 +28,22 @@
 /* 700 */
 /* 800 */
 /* border */
+.banner_part,
+.course_item,
+.our_course_area,
+.our_course_specialty,
+.earning_area,
+.student_success_history_area,
+.profational_trainer_area,
+.free_seminar_area,
+.job_career_area,
+.my_it_service_area,
+.working_company_name_area,
+.footer_area_start,
+.chating_and_go_to_top_area {
+  display: none;
+}
+
 /* responsive_desine_mixin start*/
 /* responsive_desine_mixin end*/
 @font-face {
@@ -86,6 +102,7 @@ body {
   outline: 0;
   box-sizing: border-box;
   font-family: "Regular";
+  overflow-x: hidden;
 }
 
 h1,
@@ -139,7 +156,6 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .header_area {
-  display: none;
   border: 0px solid red;
   position: sticky;
   top: 0px;
@@ -152,6 +168,18 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content {
+    display: block;
+    position: relative;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content {
+    display: block;
+    position: relative;
+  }
+}
 .header_area .header_area_content .logo_area {
   border: 0px solid red;
   align-items: center;
@@ -159,19 +187,148 @@ html ::-webkit-scrollbar-thumb:hover {
   height: 100%;
   width: 202px;
 }
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .logo_area {
+    width: unset;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .logo_area {
+    width: unset;
+    padding: 15px 0px;
+  }
+}
 .header_area .header_area_content .logo_area a {
   border: 0px solid red;
   width: 190px;
 }
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .logo_area a {
+    width: 120px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .logo_area a {
+    width: 120px;
+  }
+}
 .header_area .header_area_content .logo_area a img {
   border: 0px solid red;
   height: 64px;
+}
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .logo_area a img {
+    width: 100%;
+    height: unset;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .logo_area a img {
+    width: 100%;
+    height: unset;
+  }
+}
+.header_area .header_area_content .extra_login_area {
+  border: 0px solid red;
+  align-items: center;
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 40px;
+}
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .extra_login_area {
+    display: flex;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .extra_login_area {
+    display: flex;
+    top: 23px;
+  }
+}
+.header_area .header_area_content .extra_login_area a {
+  border: 0px solid red;
+  font-size: 14px;
+  color: #1c1c1c;
+  font-family: "Medium";
+  padding: 2px 5px;
+  transition-duration: 0.4s;
+}
+.header_area .header_area_content .extra_login_area a:hover {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+.header_area .header_area_content .menu_ber {
+  border: 0px solid red;
+  position: absolute;
+  right: 0;
+  top: 9px;
+  padding: 0px;
+  background-color: transparent;
+  display: none;
+  transition-duration: 0.4s;
+}
+.header_area .header_area_content .menu_ber:hover {
+  color: #dc2626;
+}
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .menu_ber {
+    align-content: center;
+    display: flex;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .menu_ber {
+    align-content: center;
+    display: flex;
+    top: 22px;
+  }
+}
+.header_area .header_area_content .menu_ber i {
+  border: 0px solid red;
+}
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .menu_ber i {
+    font-size: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .menu_ber i {
+    font-size: 20px;
+  }
 }
 .header_area .header_area_content .nav_and_login_area {
   border: 0px solid red;
   display: flex;
   flex: 1;
   justify-content: end;
+}
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area {
+    display: block;
+    background-color: #ecc9c9;
+    position: absolute;
+    width: 100%;
+    right: -1000px;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.4s;
+    height: 100vh;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area {
+    display: block;
+    background-color: #ecc9c9;
+    position: absolute;
+    width: 100%;
+    right: -1000px;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.4s;
+    height: 100vh;
+  }
 }
 .header_area .header_area_content .nav_and_login_area .nav-area {
   border: 0px solid red;
@@ -181,8 +338,30 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   padding: 48px 0px;
 }
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area .nav-area ul {
+    display: block;
+    padding: 30px 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area .nav-area ul {
+    display: block;
+    padding: 30px 0px;
+  }
+}
 .header_area .header_area_content .nav_and_login_area .nav-area ul li {
   border: 0px solid red;
+}
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area .nav-area ul li {
+    margin: 10px 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area .nav-area ul li {
+    margin: 10px 0px;
+  }
 }
 .header_area .header_area_content .nav_and_login_area .nav-area ul li a {
   border: 0px solid red;
@@ -214,6 +393,16 @@ html ::-webkit-scrollbar-thumb:hover {
   align-items: center;
   display: flex;
 }
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area .login_area {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area .login_area {
+    display: none;
+  }
+}
 .header_area .header_area_content .nav_and_login_area .login_area a {
   border: 0px solid red;
   font-size: 16px;
@@ -226,10 +415,43 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-left: 32px;
   transition-duration: 0.4s;
 }
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area .login_area a {
+    border: 0px;
+    padding: 7px;
+    border-radius: 0px;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area .login_area a {
+    border: 0px;
+    padding: 7px;
+    border-radius: 0px;
+    margin-left: 0px;
+  }
+}
 .header_area .header_area_content .nav_and_login_area .login_area a:hover {
   background-color: #dc2626;
   color: #ffffff;
   border: 1px solid transparent;
+}
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area .login_area a:hover {
+    color: #ffffff;
+    border: 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area .login_area a:hover {
+    color: #ffffff;
+    border: 0px;
+  }
+}
+.header_area .header_area_content .activee_class {
+  right: 0px;
+  opacity: 1;
+  visibility: visible;
 }
 
 .banner_part {
