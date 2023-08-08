@@ -145,7 +145,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .header_area {
-  border: 1px solid red;
+  border: 0px solid red;
   position: sticky;
   top: 0px;
   background-color: #ffffff;
@@ -153,7 +153,7 @@ html ::-webkit-scrollbar-thumb:hover {
   box-shadow: 0px -6px 5px 10px #e2e3e5;
 }
 .header_area .header_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   align-items: center;
 }
@@ -176,7 +176,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .logo_area {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
   height: 100%;
@@ -201,7 +201,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .logo_area a {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 190px;
 }
 @media screen and (max-width: 575.9px) {
@@ -220,7 +220,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .logo_area a img {
-  border: 1px solid red;
+  border: 0px solid red;
   height: 64px;
 }
 @media screen and (max-width: 575.9px) {
@@ -242,7 +242,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .extra_login_area {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: none;
   position: absolute;
@@ -268,7 +268,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .extra_login_area a {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 14px;
   color: #1c1c1c;
   font-family: "Medium";
@@ -280,7 +280,7 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .header_area .header_area_content .menu_ber {
-  border: 1px solid red;
+  border: 0px solid red;
   position: absolute;
   right: 0;
   top: 9px;
@@ -314,7 +314,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .menu_ber i {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .header_area .header_area_content .menu_ber i {
@@ -332,7 +332,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .nav_and_login_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   flex: 1;
   justify-content: end;
@@ -383,10 +383,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .nav_and_login_area .nav-area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .header_area .header_area_content .nav_and_login_area .nav-area ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   padding: 48px 0px;
 }
@@ -409,7 +409,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .nav_and_login_area .nav-area ul li {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .header_area .header_area_content .nav_and_login_area .nav-area ul li {
@@ -427,7 +427,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .nav_and_login_area .nav-area ul li a {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 24px;
   color: #1c1c1c;
@@ -491,7 +491,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .nav_and_login_area .login_area {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
 }
@@ -511,7 +511,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .header_area .header_area_content .nav_and_login_area .login_area a {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 12px;
   color: #1c1c1c;
@@ -576,11 +576,11 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .banner_part {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #f3f4f6;
 }
 .banner_part .banner_part_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   justify-content: space-between;
 }
@@ -600,7 +600,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_left {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 221px;
   padding-bottom: 175px;
 }
@@ -630,10 +630,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_left .banner_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .banner_part .banner_part_content .banner_part_left .banner_title .banner_title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 52px;
   line-height: 83.2px;
   font-family: "Bold";
@@ -672,7 +672,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_left .banner_title .banner_title_text .title_bangla {
-  border: 1px solid red;
+  border: 0px solid red;
   display: block;
   color: #dc2626;
 }
@@ -687,11 +687,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_left .banner_title .banner_title_text .title_english {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #1c1c1c;
 }
 .banner_part .banner_part_content .banner_part_left .description {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 16px;
   padding-bottom: 48px;
 }
@@ -702,7 +702,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_left .description p {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "SemiBold";
@@ -730,7 +730,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_left .button_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
 }
 @media screen and (max-width: 575.9px) {
@@ -751,7 +751,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_left .button_area .button_left {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .banner_part .banner_part_content .banner_part_left .button_area .button_left .button_all {
   transition-duration: 0.4s;
@@ -765,21 +765,21 @@ html ::-webkit-scrollbar-thumb:hover {
   fill: #ffffff;
 }
 .banner_part .banner_part_content .banner_part_left .button_area .button_left .button_all .btn_img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .banner_part .banner_part_content .banner_part_left .button_area .button_left .button_all .btn_img #icon {
   fill: #101727;
   transition-duration: 0.4s;
 }
 .banner_part .banner_part_content .banner_part_left .button_area .button_left .button_all .btn_img img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .banner_part .banner_part_content .banner_part_left .button_area .button_left .button_all .btn_text {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-left: 5px;
 }
 .banner_part .banner_part_content .banner_part_left .button_area .button_right {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-left: 51px;
 }
 @media screen and (max-width: 575.9px) {
@@ -804,12 +804,12 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .banner_part .banner_part_content .banner_part_right {
-  border: 1px solid red;
+  border: 0px solid red;
   position: relative;
   margin-top: auto;
 }
 .banner_part .banner_part_content .banner_part_right .banner_img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
   .banner_part .banner_part_content .banner_part_right .banner_img {
@@ -818,7 +818,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_right .banner_img img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .banner_part .banner_part_content .banner_part_right .banner_img img {
@@ -836,10 +836,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_right .banner_part_right_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .banner_part .banner_part_content .banner_part_right .banner_part_right_content .right_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: inline-flex;
   padding: 10px;
   background-color: white;
@@ -858,7 +858,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_right .banner_part_right_content .right_area_content .left_site {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .banner_part .banner_part_content .banner_part_right .banner_part_right_content .right_area_content .left_site {
@@ -876,7 +876,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_right .banner_part_right_content .right_area_content .left_site img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .banner_part .banner_part_content .banner_part_right .banner_part_right_content .right_area_content .left_site img {
@@ -894,7 +894,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .banner_part .banner_part_content .banner_part_right .banner_part_right_content .right_area_content .right_site {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 18.69px;
   line-height: 28px;
   font-family: "SemiBold";
@@ -1057,7 +1057,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .course_item {
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 100px 0px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1066,7 +1066,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_item .course_item_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -1088,17 +1088,17 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_item .course_item_content .course {
-  border: 1px solid red;
+  border: 0px solid red;
   border: 1px solid #dc2626;
   border-radius: 8px;
 }
 .course_item .course_item_content .course a {
-  border: 1px solid red;
+  border: 0px solid red;
   border-radius: 8px;
   transition-duration: 0.4s;
 }
 .course_item .course_item_content .course a .course_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 29px 98px 0px 98px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1131,7 +1131,7 @@ html ::-webkit-scrollbar-thumb:hover {
   transition-duration: 0.4s;
 }
 .course_item .course_item_content .course a .course_text_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 16px;
   padding-bottom: 28px;
   text-align: center;
@@ -1149,7 +1149,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_item .course_item_content .course a .course_text_area .course_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 39px;
   font-family: "SemiBold";
@@ -1179,7 +1179,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .our_course_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1188,7 +1188,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #f3f4f6;
   border-radius: 20px;
   padding-bottom: 49px;
@@ -1199,7 +1199,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   padding: 48px 0px 58px 0px;
 }
@@ -1209,10 +1209,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_course_area .our_course_area_content .course_schedule_name {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 32px;
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
@@ -1222,7 +1222,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .course_schedule_name ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
 }
 @media screen and (max-width: 575.9px) {
@@ -1242,7 +1242,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .course_schedule_name ul li {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-left: 64px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1274,7 +1274,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .course_schedule_name ul li a {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 40px;
   font-family: "SemiBold";
@@ -1361,7 +1361,7 @@ html ::-webkit-scrollbar-thumb:hover {
   transform: scale(0.9);
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_img_area {
-  border: 1px solid red;
+  border: 0px solid red;
   justify-content: center;
   display: flex;
   padding: 24px 72px;
@@ -1375,7 +1375,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_img_area .card_img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 200px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1386,7 +1386,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_img_area .card_img img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
   transition-duration: 0.4s;
 }
@@ -1394,7 +1394,7 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-top: 17px;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .card_title {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 14px;
   margin-left: 16px;
 }
@@ -1404,7 +1404,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .card_title .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "SemiBold";
@@ -1418,7 +1418,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .day_and_boking_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   justify-content: space-between;
   padding-bottom: 14px;
@@ -1430,7 +1430,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .day_and_boking_area .day_area {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
   font-size: 16px;
@@ -1438,17 +1438,17 @@ html ::-webkit-scrollbar-thumb:hover {
   font-family: "Medium";
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .day_and_boking_area .day_area .day_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-right: 8px;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .day_and_boking_area .day_area .day_icon img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .day_and_boking_area .day_area .day_tex {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .day_and_boking_area .boking_area {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 12px;
   line-height: 15px;
   font-family: "Medium";
@@ -1461,11 +1461,11 @@ html ::-webkit-scrollbar-thumb:hover {
   text-align: center;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .day_and_boking_area .boking_area .boking_text {
-  border: 1px solid red;
+  border: 0px solid red;
   display: block;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #fef2f2;
@@ -1479,15 +1479,15 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .all_amount {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   align-items: center;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area .previous_amount {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 16px;
   font-family: "SemiBold";
@@ -1495,20 +1495,20 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-right: 6px;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area .previous_amount .taka {
-  border: 1px solid red;
+  border: 0px solid red;
   text-decoration: line-through;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area .current_amount {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "SemiBold";
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area .current_amount .taka {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .button_all {
   font-size: 16px;
@@ -1526,12 +1526,12 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .button_all .btn-text {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-right: 8px;
   transition-duration: 0.4s;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .button_all .btn_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   animation: right_animation 2s linear infinite;
 }
 @keyframes right_animation {
@@ -1546,14 +1546,14 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .amount_and_button_area .button_all .btn_icon i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   color: #dc2626;
   transition-duration: 0.4s;
 }
 
 .our_course_specialty {
-  border: 1px solid red;
+  border: 0px solid red;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1572,10 +1572,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_specialty .our_course_specialty_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_course_specialty .our_course_specialty_area_content .our_course_specialty_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   padding-bottom: 72px;
 }
@@ -1583,7 +1583,7 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .our_course_specialty .our_course_specialty_area_content .course_card_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
@@ -1594,7 +1594,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_specialty .our_course_specialty_area_content .course_card_area .c_card {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   align-items: center;
   background-color: #fef2f2;
@@ -1613,7 +1613,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_specialty .our_course_specialty_area_content .course_card_area .c_card .card_img_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 82px 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1627,7 +1627,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_specialty .our_course_specialty_area_content .course_card_area .c_card .card_img_area .card_img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 175px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1646,18 +1646,18 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_specialty .our_course_specialty_area_content .course_card_area .c_card .card_img_area .card_img img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
 }
 .our_course_specialty .our_course_specialty_area_content .course_card_area .c_card .card_text {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #ffffff;
   width: 100%;
   border-radius: 0px 0px 12px 12px;
   padding: 35px 0px 29px 0px;
 }
 .our_course_specialty .our_course_specialty_area_content .course_card_area .c_card .card_text p {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 39px;
   font-family: "SemiBold";
@@ -1670,7 +1670,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .earning_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1679,34 +1679,34 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .earning_area .earning_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #f3f4f6;
   padding: 64px 0px;
   border-radius: 20px;
 }
 .earning_area .earning_area_content .earning_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
 }
 .earning_area .earning_area_content .earning_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #dc2626;
   padding-bottom: 12px;
 }
 .earning_area .earning_area_content .earning_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
 }
 .earning_area .earning_area_content .earning_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .earning_area .earning_area_content .earning_area_bottom {
-  border: 1px solid red;
+  border: 0px solid red;
   justify-content: center;
   display: flex;
 }
 .earning_area .earning_area_content .earning_area_bottom ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   gap: 64px;
 }
@@ -1716,12 +1716,12 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .earning_area .earning_area_content .earning_area_bottom ul li {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   position: relative;
 }
 .earning_area .earning_area_content .earning_area_bottom ul li .step_number {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -1742,11 +1742,11 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .earning_area .earning_area_content .earning_area_bottom ul li .step_number .right_arrow_area {
-  border: 1px solid red;
+  border: 0px solid red;
   position: absolute;
 }
 .earning_area .earning_area_content .earning_area_bottom ul li .step_number .right_arrow_area .right_arrow {
-  border: 1px solid red;
+  border: 0px solid red;
   height: 2px;
   border: 0px;
   background-color: #fca5a5;
@@ -1758,7 +1758,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .earning_area .earning_area_content .earning_area_bottom ul li .step_number .right_arrow_area .right_arrow i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 18px;
   position: absolute;
   top: -7px;
@@ -1814,21 +1814,21 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .earning_area .earning_area_content .earning_area_bottom ul li .bottom_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "Bold";
   color: #494949;
 }
 .earning_area .earning_area_content .earning_area_bottom ul li .arrow {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .earning_area .earning_area_content .earning_area_bottom ul li .arrow img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 .student_success_history_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1837,49 +1837,49 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .student_success_history_area .student_success_history_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .student_success_history_area .student_success_history_content .student_success_history_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 24px;
   text-align: center;
 }
 .student_success_history_area .student_success_history_content .student_success_history_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .student_success_history_area .student_success_history_content .student_success_history_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 65px;
   text-align: center;
 }
 .student_success_history_area .student_success_history_content .student_success_history_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   display: block;
 }
 .student_success_history_area .student_success_history_content .student_success_video_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   flex-wrap: wrap;
   gap: 26px;
   justify-content: center;
 }
 .student_success_history_area .student_success_history_content .student_success_video_area .success_video_area {
-  border: 1px solid red;
+  border: 0px solid red;
   position: relative;
   background-color: transparent;
   padding: 0px;
   position: relative;
 }
 .student_success_history_area .student_success_history_content .student_success_video_area .success_video_area .success_video_cover_photo {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .student_success_history_area .student_success_history_content .student_success_video_area .success_video_area .success_video_cover_photo img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
   border-radius: 23px;
 }
 .student_success_history_area .student_success_history_content .student_success_video_area .success_video_area .video_button_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 130px;
   height: 130px;
   background-color: #dc2626;
@@ -1900,7 +1900,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .student_success_history_area .student_success_history_content .student_success_video_area .success_video_area .video_button_icon i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 50px;
   color: #ffffff;
 }
@@ -1910,7 +1910,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .student_success_history_area .student_success_history_content .success_history_button_area {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   padding-top: 78px;
 }
@@ -1934,11 +1934,11 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .student_success_history_area .student_success_history_content .success_history_button_area .button_all .btn_text {
-  border: 1px solid red;
+  border: 0px solid red;
   transition-duration: 0.4s;
 }
 .student_success_history_area .student_success_history_content .success_history_button_area .button_all .btn_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-left: 14px;
   animation: right_animation 2s linear infinite;
 }
@@ -1959,7 +1959,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .profational_trainer_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -1968,37 +1968,37 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .profational_trainer_area .profational_trainer_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .profational_trainer_area .profational_trainer_area_content .left_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .profational_trainer_area .profational_trainer_area_content .left_area .trainer_img {
-  border: 1px solid red;
+  border: 0px solid red;
   border-radius: 16px;
 }
 .profational_trainer_area .profational_trainer_area_content .left_area .trainer_img img {
-  border: 1px solid red;
+  border: 0px solid red;
   border-radius: 16px;
   width: 100%;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
   height: 100%;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 16px;
   padding-bottom: 56px;
 }
@@ -2008,13 +2008,13 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_area_sub_title .sub1 {
   padding-bottom: 28px;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_button_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_button_area .button_all {
   transition-duration: 0.4s;
@@ -2030,11 +2030,11 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_button_area .button_all .btn_text {
-  border: 1px solid red;
+  border: 0px solid red;
   transition-duration: 0.4s;
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_button_area .button_all .btn_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-left: 14px;
   animation: right_animation 2s linear infinite;
 }
@@ -2050,13 +2050,13 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .profational_trainer_area .profational_trainer_area_content .right_area .right_area_content .profational_trainer_button_area .button_all .btn_icon i {
-  border: 1px solid red;
+  border: 0px solid red;
   vertical-align: middle;
   transition-duration: 0.4s;
 }
 
 .free_seminar_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -2065,7 +2065,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .free_seminar_area .free_seminar_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #f3f4f6;
   border-radius: 20px;
   padding: 64px 33px 64px 64px;
@@ -2081,21 +2081,21 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .free_seminar_area .free_seminar_area_content .left_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .free_seminar_area .free_seminar_area_content .left_area .free_seminar_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .free_seminar_area .free_seminar_area_content .left_area .free_seminar_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .free_seminar_area .free_seminar_area_content .left_area .free_seminar_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 16px;
   padding-bottom: 40px;
 }
 .free_seminar_area .free_seminar_area_content .left_area .free_seminar_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area {
   border: 1px solid #fecaca;
@@ -2116,7 +2116,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .date {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   padding: 10px 23px;
   background-color: #fecaca;
@@ -2134,14 +2134,14 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .date .date_number {
-  border: 1px solid red;
+  border: 0px solid red;
   display: block;
   font-size: 20px;
   line-height: 20px;
   font-family: "SemiBold";
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .date .date_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 24px;
   font-family: "Medium";
@@ -2153,11 +2153,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .data_science {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-left: 16px;
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .data_science .data_science_text_title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 24px;
   font-family: "SemiBold";
@@ -2169,7 +2169,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .data_science .data_science_text_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 13px;
   line-height: 19px;
   font-family: "SemiBold";
@@ -2178,7 +2178,7 @@ html ::-webkit-scrollbar-thumb:hover {
   padding: 0px 5px;
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .join_button {
-  border: 1px solid red;
+  border: 0px solid red;
   flex: 1;
   justify-content: end;
   display: flex;
@@ -2218,11 +2218,11 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .join_button .button_all .btn_text {
-  border: 1px solid red;
+  border: 0px solid red;
   transition-duration: 0.4s;
 }
 .free_seminar_area .free_seminar_area_content .left_area .free_seminar_button_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .free_seminar_area .free_seminar_area_content .left_area .free_seminar_button_area {
@@ -2254,27 +2254,27 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .free_seminar_area .free_seminar_area_content .left_area .free_seminar_button_area .button_all .btn_icon {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .free_seminar_area .free_seminar_area_content .left_area .free_seminar_button_area .button_all .btn_icon i {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #101727;
   transition-duration: 0.4s;
 }
 .free_seminar_area .free_seminar_area_content .left_area .free_seminar_button_area .button_all .btn_text {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-left: 10px;
   transition-duration: 0.4s;
 }
 .free_seminar_area .free_seminar_area_content .right_area {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
   height: 100%;
   justify-content: end;
 }
 .free_seminar_area .free_seminar_area_content .right_area .free_seminar_image {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .free_seminar_area .free_seminar_area_content .right_area .free_seminar_image {
@@ -2287,7 +2287,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .free_seminar_area .free_seminar_area_content .right_area .free_seminar_image img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .free_seminar_area .free_seminar_area_content .right_area .free_seminar_image img {
@@ -2301,7 +2301,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .job_career_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -2310,20 +2310,20 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .job_career_area .job_career_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .job_career_area .job_career_area_content .left_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .job_career_area .job_career_area_content .left_area .job_career_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 25px;
 }
 .job_career_area .job_career_area_content .left_area .job_career_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .job_career_area .job_career_area_content .left_area .job_career_image {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .job_career_area .job_career_area_content .left_area .job_career_image {
@@ -2336,7 +2336,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .job_career_area .job_career_area_content .left_area .job_career_image img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .job_career_area .job_career_area_content .left_area .job_career_image img {
@@ -2349,7 +2349,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .job_career_area .job_career_area_content .right_area {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #f3f4f6;
   border-radius: 12px;
   padding: 32px 24px;
@@ -2360,23 +2360,23 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .job_career_area .job_career_area_content .right_area .form_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .job_career_area .job_career_area_content .right_area .form_area .form_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 12px;
 }
 .job_career_area .job_career_area_content .right_area .form_area .form_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-family: "Medium";
   line-height: 24px;
   color: #1c1c1c;
 }
 .job_career_area .job_career_area_content .right_area .form_area form {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .job_career_area .job_career_area_content .right_area .form_area form input {
-  border: 1px solid red;
+  border: 0px solid red;
   display: block;
   font-size: 16px;
   line-height: 26px;
@@ -2388,7 +2388,7 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-bottom: 16px;
 }
 .job_career_area .job_career_area_content .right_area .form_area form textarea {
-  border: 1px solid red;
+  border: 0px solid red;
   display: block;
   outline: 0;
   padding: 15px 0px 15px 16px;
@@ -2413,7 +2413,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .my_it_service_area {
-  border: 1px solid red;
+  border: 0px solid red;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2427,14 +2427,14 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_it_service_area .my_it_service_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .my_it_service_area .my_it_service_area_content .my_it_service_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
 }
 .my_it_service_area .my_it_service_area_content .my_it_service_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #ffffff;
   padding-top: 80px;
 }
@@ -2444,16 +2444,16 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_it_service_area .my_it_service_area_content .my_it_service_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   margin: 4px 0px 48px 0px;
 }
 .my_it_service_area .my_it_service_area_content .my_it_service_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #e8e8e8;
 }
 .my_it_service_area .my_it_service_area_content .service_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -2470,13 +2470,13 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_it_service_area .my_it_service_area_content .service_area .service {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 410px;
   background-color: #ffffff;
   border-radius: 16px;
 }
 .my_it_service_area .my_it_service_area_content .service_area .service .service_logo {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   height: 220px;
   align-items: center;
@@ -2508,16 +2508,16 @@ html ::-webkit-scrollbar-thumb:hover {
   background-color: #fef2f2;
 }
 .my_it_service_area .my_it_service_area_content .service_area .service_title_and_description {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #ffffff;
   border-radius: 16px;
   padding: 0px 16px 16px;
 }
 .my_it_service_area .my_it_service_area_content .service_area .service_title_and_description .title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .my_it_service_area .my_it_service_area_content .service_area .service_title_and_description .title .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 40px;
   font-family: "SemiBold";
@@ -2530,11 +2530,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_it_service_area .my_it_service_area_content .service_area .service_title_and_description .description {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 8px;
 }
 .my_it_service_area .my_it_service_area_content .service_area .service_title_and_description .description .description_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 26px;
   font-family: "Regular";
@@ -2542,7 +2542,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .working_company_name_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -2551,10 +2551,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .working_company_name_area .working_company_name_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .working_company_name_area .working_company_name_area_content .working_company_name_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -2564,10 +2564,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .working_company_name_area .working_company_name_area_content .all_company_name {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .working_company_name_area .working_company_name_area_content .all_company_name ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   justify-content: center;
   gap: 48px;
@@ -2579,7 +2579,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .working_company_name_area .working_company_name_area_content .all_company_name ul .company_logo {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 193px;
   height: 91px;
 }
@@ -2595,12 +2595,12 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .working_company_name_area .working_company_name_area_content .all_company_name ul .company_logo a img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
 }
 
 .course_and_payment_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 100px;
 }
 @media screen and (max-width: 575.9px) {
@@ -2609,7 +2609,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_and_payment_area .course_and_payment_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   gap: 60px;
 }
@@ -2619,7 +2619,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_and_payment_area .course_and_payment_area_content .course_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   border-radius: 8px;
   border: 1px solid #eaeaea;
@@ -2639,7 +2639,7 @@ html ::-webkit-scrollbar-thumb:hover {
   transform: scale(0.9);
 }
 .course_and_payment_area .course_and_payment_area_content .course_area .course_image {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 174px;
   height: 174px;
   background-color: #ffffff;
@@ -2656,10 +2656,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_and_payment_area .course_and_payment_area_content .course_area .course_image img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: grid;
   margin-left: 16px;
@@ -2670,10 +2670,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_title .title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-family: "SemiBold";
   font-size: 26px;
   line-height: 40px;
@@ -2686,25 +2686,25 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 16px;
 }
 .course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price .old_price {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   font-family: "Regular";
   color: #dc2626;
   text-decoration: line-through;
 }
 .course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price .update_price {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   font-family: "SemiBold";
   color: #1c1c1c;
   margin-left: 10px;
 }
 .course_and_payment_area .course_and_payment_area_content .payment_form_area {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 450px;
 }
 @media screen and (max-width: 575.9px) {
@@ -2714,22 +2714,22 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_and_payment_area .course_and_payment_area_content .payment_form_area form {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area {
-  border: 1px solid red;
+  border: 0px solid red;
   border: 2px solid #d2d2d2;
   border-radius: 6px;
 }
 .course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content {
-  border: 1px solid red;
+  border: 0px solid red;
   justify-content: space-between;
   display: flex;
   padding: 20px 0px;
   margin: 0 10px;
 }
 .course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content label {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   font-family: "Regular";
   align-items: center;
@@ -2739,7 +2739,7 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-right: 5px;
 }
 .course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content input {
-  border: 1px solid red;
+  border: 0px solid red;
   outline: 0;
   text-align: right;
   font-size: 16px;
@@ -2766,7 +2766,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_and_payment_area .course_and_payment_area_content .payment_form_area form .button_all {
-  border: 1px solid red;
+  border: 0px solid red;
   border: 1px solid #101727;
   font-size: 18px;
   line-height: 18px;
@@ -2783,11 +2783,11 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .bank_name_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 120px;
 }
 .bank_name_area .bank_name_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   align-items: center;
 }
@@ -2797,7 +2797,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .bank_name_area .bank_name_area_content .bank_name_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-right: 12px;
 }
 @media screen and (max-width: 575.9px) {
@@ -2806,7 +2806,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .bank_name_area .bank_name_area_content .bank_name_area_title .title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 26px;
   font-family: "Medium";
@@ -2819,7 +2819,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .bank_name_area .bank_name_area_content .bank_logo_area {
-  border: 1px solid red;
+  border: 0px solid red;
   gap: 12px;
   display: flex;
 }
@@ -2830,7 +2830,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .bank_name_area .bank_name_area_content .bank_logo_area .bank_logo {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
   .bank_name_area .bank_name_area_content .bank_logo_area .bank_logo {
@@ -2838,13 +2838,13 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .bank_name_area .bank_name_area_content .bank_logo_area .bank_logo span {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .bank_name_area .bank_name_area_content .bank_logo_area .bank_logo span img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .bank_name_area .bank_name_area_content .ssl_area {
-  border: 1px solid red;
+  border: 0px solid red;
   position: relative;
   margin-left: 12px;
   padding-left: 12px;
@@ -2865,20 +2865,20 @@ html ::-webkit-scrollbar-thumb:hover {
   height: 100%;
 }
 .bank_name_area .bank_name_area_content .ssl_area .ssl_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .bank_name_area .bank_name_area_content .ssl_area .ssl_title .title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 16px;
   font-family: "Medium";
   color: #777777;
 }
 .bank_name_area .bank_name_area_content .ssl_area .ssl_image {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .bank_name_area .bank_name_area_content .ssl_area .ssl_image img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 .free_seminar_area_copy {
@@ -2937,13 +2937,13 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .contact_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   width: 996px;
   margin: auto;
@@ -2963,16 +2963,16 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .title .contact_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .title .contact_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .title .contact_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .title .contact_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "Regular";
@@ -2984,7 +2984,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .phone_number_and_form_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 80px;
 }
 @media screen and (max-width: 575.9px) {
@@ -2993,7 +2993,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
   .contact_area .contact_area_content .phone_number_and_form_area .left_area {
@@ -3001,11 +3001,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 24px;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_title .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 32px;
   font-family: "SemiBold";
 }
@@ -3015,13 +3015,13 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   align-items: center;
   margin-bottom: 24px;
@@ -3032,12 +3032,12 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .logo {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .logo i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 24px;
 }
 @media screen and (max-width: 575.9px) {
@@ -3058,11 +3058,11 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #1c1b1f;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .number {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-left: 6px;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .number .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 26px;
   font-family: "Regular";
@@ -3084,14 +3084,14 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #dc2626;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media_title {
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 30px 0px 24px 0px;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media_title .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 32px;
   font-family: "SemiBold";
 }
@@ -3101,15 +3101,15 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   gap: 12px;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li a {
   width: 48px;
@@ -3130,7 +3130,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 1px solid #dc2626;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li a i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 27px;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .facebook {
@@ -3161,11 +3161,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .phone_number_and_form_area .right_area .contact_form_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 40px;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .right_area .contact_form_title .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 32px;
   font-family: "Medium";
 }
@@ -3175,10 +3175,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .contact_area .contact_area_content .phone_number_and_form_area .right_area form {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .right_area form .form_item {
-  border: 1px solid red;
+  border: 0px solid red;
   display: block;
   width: 100%;
   margin-bottom: 20px;
@@ -3195,7 +3195,7 @@ html ::-webkit-scrollbar-thumb:hover {
   height: 100px;
 }
 .contact_area .contact_area_content .phone_number_and_form_area .right_area form .form_button {
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 18px 12px;
   border-radius: 8px;
   width: 100%;
@@ -3224,7 +3224,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .general_question_area {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 846px;
   margin: auto;
   margin-top: 80px;
@@ -3236,14 +3236,14 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .general_question_area .question_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 40px;
 }
 .general_question_area .question_title .general_question_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .general_question_area .question_title .general_question_title .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 32px;
   line-height: 32px;
   font-family: "Medium";
@@ -3256,10 +3256,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .general_question_area .question_title .general_question_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .general_question_area .question_title .general_question_sub_title .sub_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   font-family: "Regular";
   color: #494949;
@@ -3270,13 +3270,13 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .general_question_area .question_and_ans_area {
-  border: 1px solid red;
+  border: 0px solid red;
   border-bottom: 2px solid #d2d2d2;
   margin-bottom: 30px;
   padding-bottom: 0px;
 }
 .general_question_area .question_and_ans_area .question_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   justify-content: space-between;
   padding: 0px 15px;
@@ -3289,39 +3289,39 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .general_question_area .question_and_ans_area .question_area .question {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .general_question_area .question_and_ans_area .question_area .question .q_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   font-family: "Medium";
   color: #494949;
 }
 .general_question_area .question_and_ans_area .question_area .question_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
 }
 .general_question_area .question_and_ans_area .question_area .question_icon i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   color: #494949;
 }
 .general_question_area .question_and_ans_area .ans_area {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #f3f4f6;
   padding: 15px;
   margin-top: 15px;
 }
 .general_question_area .question_and_ans_area .ans_area .a_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   font-family: "Regular";
   color: #494949;
 }
 
 .science_and_technology {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -3330,7 +3330,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .science_and_technology_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -3343,7 +3343,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 561px;
 }
 @media screen and (max-width: 575.9px) {
@@ -3353,22 +3353,22 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 13px;
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .title .text {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #1c1c1c;
   font-family: "Medium";
   font-size: 20px;
   line-height: 20px;
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .content_text {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 32px;
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .content_text .text {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #1c1c1c;
   font-family: "SemiBold";
   font-size: 41px;
@@ -3381,7 +3381,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button::before {
   content: "";
@@ -3391,7 +3391,7 @@ html ::-webkit-scrollbar-thumb:hover {
   background-color: #d2d2d2;
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .sub_content_text {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 16px;
   margin-left: 40px;
 }
@@ -3406,7 +3406,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .sub_content_text .text {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #494949;
   font-family: "Regular";
   font-size: 16px;
@@ -3435,7 +3435,7 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .science_and_technology .science_and_technology_img_area {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 469px;
   position: relative;
   margin-right: 97px;
@@ -3451,7 +3451,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border-radius: 8px;
 }
 .science_and_technology .science_and_technology_img_area .color_image_left {
-  border: 1px solid red;
+  border: 0px solid red;
   position: absolute;
   top: 0;
   left: -66px;
@@ -3462,7 +3462,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .science_and_technology_img_area .color_image_right {
-  border: 1px solid red;
+  border: 0px solid red;
   position: absolute;
   bottom: 0;
   right: -98px;
@@ -3473,11 +3473,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .blog_nav {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 64px;
 }
 .science_and_technology .blog_nav ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   gap: 24px;
 }
@@ -3494,10 +3494,10 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .blog_nav ul li {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology .blog_nav ul li a {
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 12px 24px;
   color: #1c1c1c;
   font-size: 16px;
@@ -3513,7 +3513,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border-color: #dc2626;
 }
 .science_and_technology .blog_list {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   flex-wrap: wrap;
   gap: 47px;
@@ -3530,34 +3530,34 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .blog_list .blog {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 400px;
   position: relative;
 }
 .science_and_technology .blog_list .blog .blog_image_and_image_button_area {
-  border: 1px solid red;
+  border: 0px solid red;
   z-index: 99999;
   position: relative;
 }
 .science_and_technology .blog_list .blog .blog_image_and_image_button_area .blog_image {
-  border: 1px solid red;
+  border: 0px solid red;
   height: 294px;
 }
 .science_and_technology .blog_list .blog .blog_image_and_image_button_area .blog_image img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
   border-radius: 8px;
   height: 100%;
 }
 .science_and_technology .blog_list .blog .blog_image_and_image_button_area .img_button {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 18px;
   position: absolute;
   top: 0;
   right: 0;
 }
 .science_and_technology .blog_list .blog .blog_image_and_image_button_area .img_button a {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 12px;
   line-height: 12px;
   font-family: "Medium";
@@ -3565,20 +3565,20 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .science_and_technology .blog_list .blog .extra_rite_area {
-  border: 1px solid red;
+  border: 0px solid red;
   position: absolute;
   top: 19px;
   right: -8px;
   z-index: 99;
 }
 .science_and_technology .blog_list .blog .extra_rite_area .img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology .blog_list .blog .blog_text_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology .blog_list .blog .blog_text_content .day_and_time {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   font-family: "Medium";
   line-height: 16px;
@@ -3586,34 +3586,34 @@ html ::-webkit-scrollbar-thumb:hover {
   margin: 16px 0px;
 }
 .science_and_technology .blog_list .blog .blog_text_content .day_and_time .day_text {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology .blog_list .blog .blog_text_content .day_and_time .min_text {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology .blog_list .blog .blog_text_content .text_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 8px;
 }
 .science_and_technology .blog_list .blog .blog_text_content .text_title .title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   font-family: "SemiBold";
   line-height: 40px;
   color: #1c1c1c;
 }
 .science_and_technology .blog_list .blog .blog_text_content .text_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology .blog_list .blog .blog_text_content .text_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   font-family: "Regular";
   line-height: 24px;
   color: #494949;
 }
 .science_and_technology .next_page_button_area {
-  border: 1px solid red;
+  border: 0px solid red;
   justify-content: center;
   display: flex;
   margin-top: 80px;
@@ -3626,7 +3626,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .next_page_button_area ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   gap: 24px;
 }
@@ -3636,12 +3636,12 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .next_page_button_area ul li {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
 }
 .science_and_technology .next_page_button_area ul li a {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 14px;
   line-height: 14px;
   font-family: "Medium";
@@ -3658,12 +3658,12 @@ html ::-webkit-scrollbar-thumb:hover {
   border-color: #dc2626;
 }
 .science_and_technology .next_page_button_area ul li a .left_angle {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   margin-right: 4px;
 }
 .science_and_technology .next_page_button_area ul li a .right_angle {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   margin-left: 4px;
 }
@@ -3676,7 +3676,7 @@ html ::-webkit-scrollbar-thumb:hover {
   justify-content: center;
 }
 .science_and_technology .subscribe_area {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #f3f4f6;
   width: 974px;
   margin: auto;
@@ -3695,7 +3695,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .subscribe_area .subscribe_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 48px;
   margin-bottom: 12px;
 }
@@ -3705,7 +3705,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .subscribe_area .subscribe_area_title .title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 32px;
   line-height: 32px;
   font-family: "Medium";
@@ -3718,25 +3718,25 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .subscribe_area .subscribe_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 32px;
 }
 .science_and_technology .subscribe_area .subscribe_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 24px;
   font-family: "Regular";
   color: #494949;
 }
 .science_and_technology .subscribe_area form {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 40px;
 }
 .science_and_technology .subscribe_area form .subscribe_form_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology .subscribe_area form .subscribe_form_area input {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 18px;
   line-height: 18px;
   font-family: "SemiBold";
@@ -3759,7 +3759,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology .subscribe_area form .subscribe_form_area .subscribe_button {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 18px;
   line-height: 18px;
   font-family: "SemiBold";
@@ -3787,7 +3787,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .science_and_technology_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 100px 0px;
 }
 @media screen and (max-width: 575.9px) {
@@ -3796,7 +3796,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology_area .science_and_technology_content {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 845px;
   margin: auto;
 }
@@ -3806,24 +3806,24 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology_area .science_and_technology_content .title_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology_area .science_and_technology_content .title_area .title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology_area .science_and_technology_content .title_area .title .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 20px;
   color: #494949;
   font-family: "Medium";
 }
 .science_and_technology_area .science_and_technology_content .title_area .content_text {
-  border: 1px solid red;
+  border: 0px solid red;
   margin: 16px 0px 24px 0px;
 }
 .science_and_technology_area .science_and_technology_content .title_area .content_text .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 40px;
   line-height: 60px;
   color: #1c1c1c;
@@ -3836,7 +3836,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology_area .science_and_technology_content .title_image {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 845px;
   padding-bottom: 8px;
 }
@@ -3846,51 +3846,51 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology_area .science_and_technology_content .title_image img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
   border-radius: 16px;
 }
 .science_and_technology_area .science_and_technology_content .section_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 32px;
 }
 .science_and_technology_area .science_and_technology_content .section_area .title_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology_area .science_and_technology_content .section_area .title_area .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 26px;
   color: #1c1c1c;
   font-family: "SemiBold";
 }
 .science_and_technology_area .science_and_technology_content .section_area .details_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 12px;
 }
 .science_and_technology_area .science_and_technology_content .section_area .details_area .details_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 24px;
   color: #494949;
   font-family: "Regular";
 }
 .science_and_technology_area .science_and_technology_content .section_area .details_area ul {
-  border: 1px solid red;
+  border: 0px solid red;
   gap: 10px;
   display: grid;
   margin-left: 25px;
 }
 .science_and_technology_area .science_and_technology_content .section_area .details_area ul li {
-  border: 1px solid red;
+  border: 0px solid red;
   list-style-type: disc;
   color: #494949;
 }
 .science_and_technology_area .science_and_technology_content .section_area .details_area ul li .details_text {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .science_and_technology_area .science_and_technology_content .section_area .advantages_of_technology_image {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 735px;
   margin: 32px 0px 23px 0px;
 }
@@ -3914,16 +3914,16 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .science_and_technology_area .science_and_technology_content .section_area .advantages_of_technology_image img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
   border-radius: 16px;
 }
 .science_and_technology_area .science_and_technology_content .section_area .details_text {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 .blog_area {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #F3F4F6;
   margin: 0px;
   padding: 80px 0px 100px 0px;
@@ -3934,11 +3934,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .blog_area .blog_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 24px;
 }
 .blog_area .blog_area_title .title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 40px;
   line-height: 40px;
   font-family: "SemiBold";
@@ -3952,11 +3952,11 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .subscribe_area_details {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 100px;
 }
 .subscribe_area_details .subscribe_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 .my_tema_area {
@@ -3982,18 +3982,18 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .all_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .all_area .gallery_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .all_area .gallery_area .gallery_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 32px;
   text-align: center;
 }
 .all_area .gallery_area .gallery_title .title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 40px;
   line-height: 40px;
   color: #1c1c1c;
@@ -4006,7 +4006,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .all_area .gallery_area .gallery_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
@@ -4017,11 +4017,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .all_area .gallery_area .gallery_content .gallery_content_img {
-  border: 1px solid red;
+  border: 0px solid red;
   max-width: 410px;
 }
 .all_area .gallery_area .gallery_content .gallery_content_img img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
   border-radius: 16px;
 }
@@ -4032,7 +4032,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .success_story_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   margin: 100px 0px 80px 0px;
 }
@@ -4043,11 +4043,11 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_title .success_story_main_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 24px;
 }
 .success_story_title .success_story_main_title .main_title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 40px;
   line-height: 40px;
   color: #1c1c1c;
@@ -4060,7 +4060,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_title .success_story_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 550px;
   margin: auto;
 }
@@ -4070,19 +4070,19 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_title .success_story_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 .success_story_nav_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 48px;
 }
 .success_story_nav_area .success_story_nav_content {
-  border: 1px solid red;
+  border: 0px solid red;
   border-bottom: 1px solid #777777;
 }
 .success_story_nav_area .success_story_nav_content ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   margin-bottom: 8px;
 }
@@ -4092,7 +4092,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_nav_area .success_story_nav_content ul li {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-right: 60px;
 }
 @media screen and (max-width: 575.9px) {
@@ -4101,7 +4101,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_nav_area .success_story_nav_content ul li a {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 26px;
   color: #494949;
@@ -4135,7 +4135,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .success_story_video_and_image_area .success_story_video_and_image_content {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   flex-wrap: wrap;
   gap: 42px;
@@ -4151,7 +4151,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .content_area_video {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 626px;
   height: 400px;
   background-repeat: no-repeat;
@@ -4169,7 +4169,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .content_area_video .play_button {
-  border: 1px solid red;
+  border: 0px solid red;
   height: 130px;
   width: 130px;
   background-color: #dc2626;
@@ -4185,12 +4185,12 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .content_area_video .play_button i {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #ffffff;
   font-size: 33px;
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: transparent;
   display: flex;
   width: 626px;
@@ -4209,19 +4209,19 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .imagee_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .imagee_content img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .name_and_profation {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .name_and_profation .name_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 20px;
   color: #1c1c1c;
@@ -4229,14 +4229,14 @@ html ::-webkit-scrollbar-thumb:hover {
   margin: 24px 0px 12px 0px;
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .name_and_profation .profation_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 16px;
   color: #494949;
   font-family: "Regular";
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-left: 40px;
 }
 @media screen and (max-width: 575.9px) {
@@ -4245,7 +4245,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area .discription_title_area {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: start;
   margin-bottom: 16px;
 }
@@ -4255,17 +4255,17 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area .discription_title_area .discription_title {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   color: #1c1c1c;
   font-family: "SemiBold";
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area .discription_text_area {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: start;
 }
 .success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area .discription_text_area .discription_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 26px;
   color: #494949;
@@ -4273,7 +4273,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .footer_area_start {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 120px;
 }
 @media screen and (max-width: 575.9px) {
@@ -4282,43 +4282,43 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .footer_area_start .footer_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_colum {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_logo_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 24px;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_logo_area a {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_logo_area a img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 12px;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_title .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "Medium";
   color: #1c1c1c;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_number_and_email_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_number_and_email_area li {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_number_and_email_area li .contact {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   margin-bottom: 12px;
 }
@@ -4326,13 +4326,13 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #dc2626;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_number_and_email_area li .contact .logo {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 24px;
   align-items: center;
   display: flex;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_number_and_email_area li .contact .logo i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_number_and_email_area li .contact .phone i {
@@ -4348,11 +4348,11 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #1c1b1f;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_number_and_email_area li .contact .number {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-left: 6px;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .contact_number_and_email_area li .contact .number .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 26px;
   font-family: "Regular";
@@ -4360,33 +4360,33 @@ html ::-webkit-scrollbar-thumb:hover {
   transition-duration: 0.4s;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 12px;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area .social_media_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 12px;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area .social_media_title .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 14px;
   line-height: 22px;
   font-family: "Regular";
   color: black;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area .social_media {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area .social_media ul {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   gap: 12px;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area .social_media ul li {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area .social_media ul li a {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 48px;
   height: 48px;
   align-items: center;
@@ -4417,7 +4417,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 1px solid #dc2626;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area .social_media ul li a i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 27px;
 }
 .footer_area_start .footer_area_content .footer_logo_and_contact_area .footer_contact_area .social_media_area .social_media ul li .facebook {
@@ -4433,29 +4433,29 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #28a7e8;
 }
 .footer_area_start .footer_area_content .footer_blog_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 20px;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .quick_and_importent_link_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 12px;
   display: flex;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .quick_and_importent_link_title .logo {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .quick_and_importent_link_title .logo i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   color: #dc2626;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .quick_and_importent_link_title .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "Medium";
@@ -4463,13 +4463,13 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-left: 8px;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .blog_item {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .blog_item li {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .blog_item li a {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   font-size: 16px;
   line-height: 26px;
@@ -4485,12 +4485,12 @@ html ::-webkit-scrollbar-thumb:hover {
   opacity: 1;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .blog_item li a .text {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #777777;
   transition-duration: 0.4s;
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .blog_item li a .icon {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   padding-left: 10px;
   animation: right_animation 2s linear infinite;
@@ -4513,7 +4513,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .footer_area_start .footer_area_content .footer_blog_area .blog_title_and-item_area .blog_item li a .icon i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 14px;
   color: #dc2626;
   transition-duration: 0.4s;
@@ -4521,71 +4521,71 @@ html ::-webkit-scrollbar-thumb:hover {
   opacity: 0;
 }
 .footer_area_start .footer_area_content .footer_address_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 20px;
 }
 .footer_area_start .footer_area_content .footer_address_area .address_title_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
 }
 .footer_area_start .footer_area_content .footer_address_area .address_title_area .logo {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-top: 3px;
 }
 .footer_area_start .footer_area_content .footer_address_area .address_title_area .logo i {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #dc2626;
   font-size: 20px;
 }
 .footer_area_start .footer_area_content .footer_address_area .address_title_area .title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-left: 8px;
 }
 .footer_area_start .footer_area_content .footer_address_area .address_title_area .title .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "Medium";
   color: #1c1c1c;
 }
 .footer_area_start .footer_area_content .footer_address_area .address {
-  border: 1px solid red;
+  border: 0px solid red;
   margin: 8px 0px 12px 0px;
 }
 .footer_area_start .footer_area_content .footer_address_area .address .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 26px;
   font-family: "Regular";
   color: #777777;
 }
 .footer_area_start .footer_area_content .footer_address_area .map_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_address_area .map_area .map_title {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-bottom: 4px;
 }
 .footer_area_start .footer_area_content .footer_address_area .map_area .map_title .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 24px;
   font-family: "Medium";
   color: #777777;
 }
 .footer_area_start .footer_area_content .footer_address_area .map_area .full_map {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_area_content .footer_address_area .map_area .full_map iframe {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .footer_area_start .footer_copyright_area {
-  border: 1px solid red;
+  border: 0px solid red;
   padding: 40px 0px 12px 0px;
   text-align: center;
 }
 .footer_area_start .footer_copyright_area .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 14px;
   line-height: 22px;
   font-family: "Regular";
@@ -4593,7 +4593,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .chating_and_go_to_top_area {
-  border: 1px solid red;
+  border: 0px solid red;
   position: fixed;
   right: 37px;
   bottom: 77px;
@@ -4606,7 +4606,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .chating_and_go_to_top_area .chating_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: inline-flex;
   background-color: #dc2626;
   width: 40px;
@@ -4629,23 +4629,23 @@ html ::-webkit-scrollbar-thumb:hover {
   opacity: 1;
 }
 .chating_and_go_to_top_area .chating_area .logo_and_text {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   position: absolute;
   left: 10px;
   top: 9px;
 }
 .chating_and_go_to_top_area .chating_area .logo_and_text .logo {
-  border: 1px solid red;
+  border: 0px solid red;
   transition-duration: 0.4s;
 }
 .chating_and_go_to_top_area .chating_area .logo_and_text .logo i {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #ffffff;
   font-size: 20px;
 }
 .chating_and_go_to_top_area .chating_area .logo_and_text .text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 24px;
   font-family: "Medium";
@@ -4656,7 +4656,7 @@ html ::-webkit-scrollbar-thumb:hover {
   transition-duration: 0.4s;
 }
 .chating_and_go_to_top_area .go_to_top_area {
-  border: 1px solid red;
+  border: 0px solid red;
   margin-top: 16px;
   text-align: end;
 }
@@ -4666,7 +4666,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .chating_and_go_to_top_area .go_to_top_area .logo {
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   justify-content: center;
   display: inline-flex;
@@ -4684,7 +4684,7 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 .chating_and_go_to_top_area .go_to_top_area .logo i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   color: #dc2626;
   transition-duration: 0.4s;
@@ -8117,7 +8117,7 @@ html ::-webkit-scrollbar-thumb:hover {
   transform: scale(0.9);
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_img_area {
-  border: 1px solid red;
+  border: 0px solid red;
   justify-content: center;
   display: flex;
   padding: 24px 72px;
@@ -8131,7 +8131,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_img_area .card_img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 200px;
 }
 @media screen and (max-width: 575.9px) {
@@ -8142,7 +8142,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_img_area .card_img img {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 100%;
   transition-duration: 0.4s;
 }
@@ -8150,7 +8150,7 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-top: 17px;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .card_title {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 14px;
   margin-left: 16px;
 }
@@ -8160,7 +8160,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .card_title .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "SemiBold";
@@ -8174,7 +8174,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   padding-bottom: 14px;
   margin-left: 19px;
@@ -8186,7 +8186,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .day_area {
   margin-right: 12px;
-  border: 1px solid red;
+  border: 0px solid red;
   align-items: center;
   display: flex;
   font-size: 16px;
@@ -8194,17 +8194,17 @@ html ::-webkit-scrollbar-thumb:hover {
   font-family: "Medium";
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .day_area .day_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-right: 8px;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .day_area .day_icon img {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .day_area .day_tex {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .boking_area {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 12px;
   line-height: 15px;
   font-family: "Medium";
@@ -8217,11 +8217,11 @@ html ::-webkit-scrollbar-thumb:hover {
   text-align: center;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .boking_area .boking_text {
-  border: 1px solid red;
+  border: 0px solid red;
   display: block;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area {
-  border: 1px solid red;
+  border: 0px solid red;
   border-top: 1px solid #fef2f2;
   width: 100%;
 }
@@ -8233,15 +8233,15 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   align-items: center;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area .previous_amount {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 16px;
   font-family: "SemiBold";
@@ -8249,20 +8249,20 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-right: 6px;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area .previous_amount .taka {
-  border: 1px solid red;
+  border: 0px solid red;
   text-decoration: line-through;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area .current_amount {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 20px;
   line-height: 30px;
   font-family: "SemiBold";
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area .current_amount .taka {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all {
   font-size: 16px;
@@ -8281,12 +8281,12 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all .btn-text {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-right: 8px;
   transition-duration: 0.4s;
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all .btn_icon {
-  border: 1px solid red;
+  border: 0px solid red;
   animation: right_animation 2s linear infinite;
 }
 @keyframes right_animation {
@@ -8301,7 +8301,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all .btn_icon i {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   color: #dc2626;
   transition-duration: 0.4s;
@@ -8623,14 +8623,14 @@ html ::-webkit-scrollbar-thumb:hover {
 
 .our_it_services_area {
   display: none;
-  border: 1px solid red;
+  border: 0px solid red;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-bottom: 80px;
 }
 .our_it_services_area .my_it_service_area_content {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_it_services_area .my_it_service_area_content .our_it_services_heading_content {
   display: flex;
@@ -8639,16 +8639,16 @@ html ::-webkit-scrollbar-thumb:hover {
   align-items: center;
 }
 .our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
 }
 .our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_title .area_title {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #1c1c1c;
   padding-top: 80px;
 }
 .our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   margin: 4px 0px 48px 0px;
   width: 774px;
@@ -8659,25 +8659,25 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_sub_title .sub_title {
-  border: 1px solid red;
+  border: 0px solid red;
   color: #494949;
 }
 .our_it_services_area .my_it_service_area_content .service_area {
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
 }
 .our_it_services_area .my_it_service_area_content .service_area .service {
-  border: 1px solid red;
+  border: 0px solid red;
   width: 410px;
   background-color: #ffffff;
   border-radius: 16px;
   border: 1px solid #d1d5db;
 }
 .our_it_services_area .my_it_service_area_content .service_area .service .service_logo {
-  border: 1px solid red;
+  border: 0px solid red;
   text-align: center;
   height: 220px;
   align-items: center;
@@ -8704,16 +8704,16 @@ html ::-webkit-scrollbar-thumb:hover {
   background-color: #fef2f2;
 }
 .our_it_services_area .my_it_service_area_content .service_area .service_title_and_description {
-  border: 1px solid red;
+  border: 0px solid red;
   background-color: #ffffff;
   border-radius: 16px;
   padding: 0px 16px 16px;
 }
 .our_it_services_area .my_it_service_area_content .service_area .service_title_and_description .title {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .our_it_services_area .my_it_service_area_content .service_area .service_title_and_description .title .title_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 26px;
   line-height: 40px;
   font-family: "SemiBold";
@@ -8721,11 +8721,11 @@ html ::-webkit-scrollbar-thumb:hover {
   padding: 20px 0px 8px 0px;
 }
 .our_it_services_area .my_it_service_area_content .service_area .service_title_and_description .description {
-  border: 1px solid red;
+  border: 0px solid red;
   padding-bottom: 8px;
 }
 .our_it_services_area .my_it_service_area_content .service_area .service_title_and_description .description .description_text {
-  border: 1px solid red;
+  border: 0px solid red;
   font-size: 16px;
   line-height: 26px;
   font-family: "Regular";
