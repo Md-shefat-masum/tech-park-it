@@ -43,8 +43,8 @@
 </head>
 
 <body id="top">
-    <!-- header_area start -->
-    <header class="header_area">
+      <!-- header_area start -->
+      <header class="header_area">
         <div class="container">
             <div class="header_area_content">
                 <!-- logo_area start -->
@@ -55,8 +55,20 @@
                 </div>
                 <!-- logo_area end -->
 
+                <!-- extra login_area start -->
+                <div class="extra_login_area">
+                    <a href="#">লগ-ইন</a>
+                </div>
+                <!-- xs login_area end -->
+
+                <!-- menu_ber area start -->
+                <button onclick="active_menu_ber.classList.toggle('activee_class')" class="menu_ber">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- menu_ber area end -->
+
                 <!-- nav_and_login_area start -->
-                <div class="nav_and_login_area">
+                <div id="active_menu_ber" class="nav_and_login_area">
                     <!-- nav_area start -->
                     <nav class="nav-area">
                         <ul>
@@ -67,23 +79,26 @@
                                 <a href="#">আমাদের সম্পর্কে</a>
                             </li>
                             <li>
-                                <a href="#">সাকসেস স্টোরি</a>
-                            </li>
-                            <li>
-                                <a href="#">গ্যালারি</a>
-                            </li>
-                            <li>
-                                <a href="#">ব্লগ</a>
-                            </li>
-                            <li>
-                                <a href="#">এফিলিয়েশন</a>
-                            </li>
-                            <li>
                                 <a href="#">কোর্সসমূহ</a>
                             </li>
-                            <li>
-                                <a href="#">আইটি সার্ভিস</a>
+                            <li class="more_link">
+                                <a href="#">আরো দেখুন <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="more_link_details">
+                                    <li>
+                                        <a href="#">গ্যালারি</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">ব্লগ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">এফিলিয়েশন</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">আইটি সার্ভিস</a>
+                                    </li>
+                                </ul>
                             </li>
+
                             <li>
                                 <a href="#">যোগাযোগ</a>
                             </li>
@@ -135,7 +150,7 @@
                 <!-- phone_number_and_form_area start -->
                 <div class="phone_number_and_form_area">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-xs-12 col-md-6">
                             <div class="left_area">
                                 <!-- contact_title start -->
                                 <div class="contact_title">
@@ -230,7 +245,7 @@
                                 <!-- social_media_area end -->
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-xs-12 col-md-6">
                             <div class="right_area">
                                 <!-- contact_form_title start -->
                                 <div class="contact_form_title">
@@ -364,14 +379,14 @@
     <!-- contact area end -->
 
 
-    <!-- footer area start -->
-    <footer class="footer_area_start">
+       <!-- footer area start -->
+       <footer class="footer_area_start">
         <div class="container">
             <div class="footer_area_content">
                 <div class="row">
 
                     <!-- footer_logo_and_contact_area start -->
-                    <div class="col-3">
+                    <div class="col-xs-12 col-lg-4 col-xl-3">
                         <div class="footer_colum footer_logo_and_contact_area">
                             <!-- footer_logo area start -->
                             <div class="footer_logo_area">
@@ -436,7 +451,6 @@
                                         </a>
                                     </li>
                                 </ul>
-
                                 <!-- contact_number_and_email_area end -->
 
                                 <!-- social_media_area start -->
@@ -484,13 +498,13 @@
                     <!-- footer_logo_and_contact_area end -->
 
                     <!-- footer_blog_area start -->
-                    <div class="col-6">
+                    <div class="col-xs-12 col-md-5 col-xl-6">
                         <div class="footer_colum footer_blog_area">
 
                             <!-- blog_title_and-item_area start -->
                             <div class="blog_title_and-item_area">
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-xs-12 col-md-6">
 
                                         <!-- quick_link_title start -->
                                         <div class="quick_and_importent_link_title">
@@ -547,7 +561,7 @@
                                         <!-- blog_item running -->
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xs-12 col-md-6">
 
                                         <!-- importent_link_title start -->
                                         <div class="quick_and_importent_link_title">
@@ -612,7 +626,7 @@
 
 
                     <!-- footer_address_area start -->
-                    <div class="col-3">
+                    <div class="col-xs-12 col-md-3 col-xl-3">
                         <div class="footer_colum footer_address_area">
 
                             <!-- address_title_area start -->

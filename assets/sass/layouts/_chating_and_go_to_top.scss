@@ -1,11 +1,15 @@
 // chating_and_go_to_top_area start
 .chating_and_go_to_top_area {
-    display: none;
+    // display: none;
     border: $border;
     position: fixed;
     right: 37px;
     bottom: 77px;
     overflow: hidden;
+    @include xs{
+        right: 10px;
+    bottom: 30px;
+    }
     // chating_area start
     .chating_area {
         border: $border;
@@ -69,6 +73,9 @@
         border: $border;
         margin-top: 16px;
         text-align: end;
+        @include xs{
+            margin-top: 5px;
+        }
         .logo {
             border: $border;
             align-items: center;

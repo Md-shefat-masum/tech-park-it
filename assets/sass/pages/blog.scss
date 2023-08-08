@@ -2,7 +2,9 @@
 .science_and_technology {
     border: $border;
     margin-top: 120px;
-
+    @include xs {
+        margin-top: 60px;
+    }
     // science_and_technology_content start
     .science_and_technology_content {
         border: $border;
@@ -10,10 +12,18 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 140px;
+        @include xs {
+            display: block;
+            margin-bottom: 60px;
+        }
         .science_and_technology_text_area {
             border: $border;
             width: 561px;
+            @include xs {
+                width: 100%;
+                margin-bottom: 30px;
 
+            }
             .title {
                 border: $border;
                 margin-bottom: 13px;
@@ -34,6 +44,10 @@
                     font-family: $font_semibold;
                     font-size: 41px;
                     line-height: 61px;
+                    @include xs {
+                        font-size: 25px;
+                        line-height: 35px;
+                    }
                 }
             }
             .sub_content_text_and_button {
@@ -49,6 +63,12 @@
                     border: $border;
                     margin-bottom: 16px;
                     margin-left: 40px;
+                    @include xs {
+                        margin-left: 0px;
+                    }
+                    @include lg {
+                        margin-left: 0px;
+                    }
                     .text {
                         border: $border;
                         color: $mute_2;
@@ -61,6 +81,14 @@
                     border: 1px solid #6b7280;
                     margin-left: 40px;
                     transition-duration: 0.4s;
+                    @include xs {
+                        margin: auto;
+                        justify-content: center;
+                        display: flex;
+                    }
+                    @include lg {
+                        margin-left: 0px;
+                    }
                     &:hover {
                         background-color: $primary_color;
                         border-color: $primary_color;
@@ -75,6 +103,10 @@
         width: 469px;
         position: relative;
         margin-right: 97px;
+        @include xs {
+            width: 100%;
+            margin: auto;
+        }
         .blog_img {
             width: 100%;
             border-radius: 8px;
@@ -84,12 +116,20 @@
             position: absolute;
             top: 0;
             left: -66px;
+            @include xs {
+            display: none;
+
+            }
         }
         .color_image_right {
             border: $border;
             position: absolute;
             bottom: 0;
             right: -98px;
+            @include xs {
+                display: none;
+    
+                }
         }
     }
     // science_and_technology_content end
@@ -101,6 +141,14 @@
             border: $border;
             display: flex;
             gap: 24px;
+            @include xs {
+                gap: 1px;
+                flex-wrap: wrap;
+            }
+            @include lg {
+                gap: 2px;
+                flex-wrap: wrap;
+            }
             li {
                 border: $border;
                 a {
@@ -130,6 +178,13 @@
         display: flex;
         flex-wrap: wrap;
         gap: 47px;
+        @include lg {
+            gap: 30px;
+        justify-content: center;
+        }
+        @include xl {
+        justify-content: center;
+        }
         .blog {
             border: $border;
             width: 400px;
@@ -224,10 +279,17 @@
         display: flex;
         margin-top: 80px;
         margin-bottom: 120px;
+        @include xs {
+            margin-top: 40px;
+        margin-bottom: 60px;
+        }
         ul {
             border: $border;
             display: flex;
             gap: 24px;
+            @include xs {
+                gap: 2px;
+            }
             li {
                 border: $border;
                 align-items: center;
@@ -279,18 +341,31 @@
         width: 974px;
         margin: auto;
         border-radius: 12px;
-    padding: 0px 40px;
-
+        padding: 0px 40px;
+        @include xs {
+            width: 100%;
+            padding: 0px 10px;
+        }
+        @include lg {
+            width: 100%;
+        }
         .subscribe_area_title {
             border: $border;
             padding-top: 48px;
             margin-bottom: 12px;
+            @include xs {
+                padding-top: 30px;
+            }
             .title {
                 border: $border;
                 font-size: 32px;
                 line-height: 32px;
                 font-family: $font_medium;
                 color: $mute_1;
+                @include xs {
+                    font-size: 19px;
+                line-height: 29px;
+                }
             }
         }
         .subscribe_area_sub_title {
@@ -319,7 +394,15 @@
                     padding: 6px 24px;
                     border-radius: 8px;
                     width: 717px;
-                    border: 1px solid #D1D5DB;
+                    border: 1px solid #d1d5db;
+                    outline: 0;
+                    @include xs {
+                        width:100%;
+                        margin-bottom: 10px;
+                    }
+                    @include lg {
+                        margin-bottom: 10px;
+                    }
                 }
                 .subscribe_button {
                     border: $border;
@@ -331,9 +414,15 @@
                     background-color: $white;
                     margin-left: 16px;
                     border-radius: 8px;
-                    border: 1px solid #D1D5DB;
-                    transition-duration: .4s;
-                    &:hover{
+                    border: 1px solid #d1d5db;
+                    transition-duration: 0.4s;
+                    @include xs {
+                       margin-left: 0px;
+                    }
+                    @include lg {
+                       margin-left: 0px;
+                    }
+                    &:hover {
                         background-color: $primary_color;
                         color: $white;
                     }

@@ -6,17 +6,29 @@
         padding: 0px;
         margin: auto;
         background-color: unset;
+        @include xs{
+            width: 100%;
+        }
         .left_area_copy {
             .date_line_area_copy {
                 margin-bottom: 15px;
+                @include xs{
+                   padding: 10px;
+                }
                 .date_copy {
                     padding: 10px 30px;
+                    @include lg{
+                       border-radius: 0px;
+                     }
                     .date_number_copy {
                         font-size: 32px;
                         font-family: $font_semibold;
                     }
                 }
                 .data_science_copy {
+                    @include xs{
+                           padding-left: 0px;
+                    }
                     .data_science_text_title_copy {
                         font-size: 20px;
                         line-height: 30px;

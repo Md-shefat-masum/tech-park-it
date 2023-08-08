@@ -1,8 +1,11 @@
 // footer area start
 .footer_area_start {
-    display: none;
+    // display: none;
     border: $border;
     padding-top: 120px;
+    @include xs {
+        padding-top: 60px;
+    }
     .footer_area_content {
         border: $border;
         .footer_colum {
@@ -130,6 +133,18 @@
                                     justify-content: center;
                                     border: 1px solid #d6d6d6;
                                     transition-duration: 0.4s;
+                                    @include xs {
+                                        width: 42px;
+                                        height: 42px;
+                                    }
+                                    @include lg{
+                                        width: 40px;
+                                        height: 40px;
+                                    }
+                                    @include xl{
+                                        width: 40px;
+                                        height: 40px;
+                                    }
                                     &:hover {
                                         border: 1px solid $primary_color;
                                     }
@@ -233,7 +248,10 @@
                                 border: $border;
                                 align-items: center;
                                 padding-left: 10px;
-
+@include lg{
+    justify-content: center;
+    display: flex;
+}
                                 @keyframes right_animation {
                                     0% {
                                         transform: translate(0px);

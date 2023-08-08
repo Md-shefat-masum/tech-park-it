@@ -47,68 +47,81 @@
   </head>
 
   <body id="top">
-    <!-- header_area start -->
-    <header class="header_area">
-      <div class="container">
+   <!-- header_area start -->
+   <header class="header_area">
+    <div class="container">
         <div class="header_area_content">
-          <!-- logo_area start -->
-          <div class="logo_area">
-            <a href="#">
-              <img
-                src="./assets/images/tech_park_it_logo/logo_big.png"
-                alt="logo, tech park it"
-              />
-            </a>
-          </div>
-          <!-- logo_area end -->
-
-          <!-- nav_and_login_area start -->
-          <div class="nav_and_login_area">
-            <!-- nav_area start -->
-            <nav class="nav-area">
-              <ul>
-                <li>
-                  <a class="active_button" href="#">হোম</a>
-                </li>
-                <li>
-                  <a href="#">আমাদের সম্পর্কে</a>
-                </li>
-                <li>
-                  <a href="#">সাকসেস স্টোরি</a>
-                </li>
-                <li>
-                  <a href="#">গ্যালারি</a>
-                </li>
-                <li>
-                  <a href="#">ব্লগ</a>
-                </li>
-                <li>
-                  <a href="#">এফিলিয়েশন</a>
-                </li>
-                <li>
-                  <a href="#">কোর্সসমূহ</a>
-                </li>
-                <li>
-                  <a href="#">আইটি সার্ভিস</a>
-                </li>
-                <li>
-                  <a href="#">যোগাযোগ</a>
-                </li>
-              </ul>
-            </nav>
-            <!-- nav_area end -->
-
-            <!-- login_area start -->
-            <div class="login_area">
-              <a href="#">লগ-ইন</a>
+            <!-- logo_area start -->
+            <div class="logo_area">
+                <a href="#">
+                    <img src="./assets/images/tech_park_it_logo/logo_big.png" alt="logo, tech park it">
+                </a>
             </div>
-            <!-- login_area end -->
-          </div>
-          <!-- nav_and_login_area end -->
+            <!-- logo_area end -->
+
+            <!-- extra login_area start -->
+            <div class="extra_login_area">
+                <a href="#">লগ-ইন</a>
+            </div>
+            <!-- xs login_area end -->
+
+            <!-- menu_ber area start -->
+            <button onclick="active_menu_ber.classList.toggle('activee_class')" class="menu_ber">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <!-- menu_ber area end -->
+
+            <!-- nav_and_login_area start -->
+            <div id="active_menu_ber" class="nav_and_login_area">
+                <!-- nav_area start -->
+                <nav class="nav-area">
+                    <ul>
+                        <li>
+                            <a class="active_button" href="#">হোম</a>
+                        </li>
+                        <li>
+                            <a href="#">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li>
+                            <a href="#">কোর্সসমূহ</a>
+                        </li>
+                        <li class="more_link">
+                            <a href="#">আরো দেখুন <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="more_link_details">
+                                <li>
+                                    <a href="#">গ্যালারি</a>
+                                </li>
+                                <li>
+                                    <a href="#">ব্লগ</a>
+                                </li>
+                                <li>
+                                    <a href="#">এফিলিয়েশন</a>
+                                </li>
+                                <li>
+                                    <a href="#">আইটি সার্ভিস</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#">যোগাযোগ</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!-- nav_area end -->
+
+                <!-- login_area start -->
+                <div class="login_area">
+                    <a href="#">লগ-ইন</a>
+                </div>
+                <!-- login_area end -->
+            </div>
+            <!-- nav_and_login_area end -->
         </div>
-      </div>
-    </header>
-    <!-- header_area end -->
+    </div>
+</header>
+<!-- header_area end -->
 
     <!-- not found area start -->
     <div class="not_found_area_start">
@@ -136,7 +149,7 @@
                 <div class="row">
 
                     <!-- footer_logo_and_contact_area start -->
-                    <div class="col-3">
+                    <div class="col-xs-12 col-lg-4 col-xl-3">
                         <div class="footer_colum footer_logo_and_contact_area">
                             <!-- footer_logo area start -->
                             <div class="footer_logo_area">
@@ -201,7 +214,6 @@
                                         </a>
                                     </li>
                                 </ul>
-
                                 <!-- contact_number_and_email_area end -->
 
                                 <!-- social_media_area start -->
@@ -249,13 +261,13 @@
                     <!-- footer_logo_and_contact_area end -->
 
                     <!-- footer_blog_area start -->
-                    <div class="col-6">
+                    <div class="col-xs-12 col-md-5 col-xl-6">
                         <div class="footer_colum footer_blog_area">
 
                             <!-- blog_title_and-item_area start -->
                             <div class="blog_title_and-item_area">
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-xs-12 col-md-6">
 
                                         <!-- quick_link_title start -->
                                         <div class="quick_and_importent_link_title">
@@ -312,7 +324,7 @@
                                         <!-- blog_item running -->
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xs-12 col-md-6">
 
                                         <!-- importent_link_title start -->
                                         <div class="quick_and_importent_link_title">
@@ -377,7 +389,7 @@
 
 
                     <!-- footer_address_area start -->
-                    <div class="col-3">
+                    <div class="col-xs-12 col-md-3 col-xl-3">
                         <div class="footer_colum footer_address_area">
 
                             <!-- address_title_area start -->

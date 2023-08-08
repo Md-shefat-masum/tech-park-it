@@ -18,6 +18,10 @@
             display: block;
             position: relative;
         }
+        @include md {
+            display: block;
+            position: relative;
+        }
         // logo_area start
         .logo_area {
             border: $border;
@@ -27,8 +31,13 @@
             width: 202px;
             @include xs {
                 width: unset;
+                padding: 8px 0px;
             }
             @include sm {
+                width: unset;
+                padding: 15px 0px;
+            }
+            @include md {
                 width: unset;
                 padding: 15px 0px;
             }
@@ -41,6 +50,9 @@
                 @include sm {
                     width: 120px;
                 }
+                @include md {
+                    width: 120px;
+                }
                 img {
                     border: $border;
                     // width: 100%;
@@ -50,6 +62,10 @@
                         height: unset;
                     }
                     @include sm {
+                        width: 100%;
+                        height: unset;
+                    }
+                    @include md {
                         width: 100%;
                         height: unset;
                     }
@@ -68,8 +84,13 @@
             right: 40px;
             @include xs {
                 display: flex;
+                top: 15px;
             }
             @include sm {
+                display: flex;
+                top: 23px;
+            }
+            @include md {
                 display: flex;
                 top: 23px;
             }
@@ -104,8 +125,14 @@
             @include xs {
                 align-content: center;
                 display: flex;
+                top: 16px;
             }
             @include sm {
+                align-content: center;
+                display: flex;
+                top: 22px;
+            }
+            @include md {
                 align-content: center;
                 display: flex;
                 top: 22px;
@@ -117,6 +144,9 @@
                     font-size: 20px;
                 }
                 @include sm {
+                    font-size: 20px;
+                }
+                @include md {
                     font-size: 20px;
                 }
             }
@@ -134,37 +164,47 @@
                 background-color: #ecc9c9;
                 position: absolute;
                 width: 100%;
-                right: -1000px;
+                left: -1000px;
                 opacity: 0;
                 visibility: hidden;
                 transition-duration: 0.4s;
                 height: 100vh;
+
+                width: 70%;
+                position: fixed;
             }
             @include sm {
                 display: block;
                 background-color: #ecc9c9;
                 position: absolute;
                 width: 100%;
-                right: -1000px;
+                left: -1000px;
                 opacity: 0;
                 visibility: hidden;
                 transition-duration: 0.4s;
                 height: 100vh;
+
+                width: 70%;
+                position: fixed;
+            }
+            @include md {
+                display: block;
+                background-color: #ecc9c9;
+                position: absolute;
+                width: 100%;
+                left: -1000px;
+                opacity: 0;
+                visibility: hidden;
+                transition-duration: 0.4s;
+                height: 100vh;
+
+                width: 70%;
+                position: fixed;
             }
             // nav_area start
             .nav-area {
                 border: $border;
-                // margin: 48px 0px;
-                // position: relative;
-                // .nav_overlay{
-                //     position: fixed;
-                //     background-color: rgba(112, 112, 112,0.5);
-                //     top: 0;
-                //     left: 0;
-                //     height: 100vh;
-                //     width: 100vw;
-                //     z-index: 99;
-                // }
+
                 ul {
                     border: $border;
                     display: flex;
@@ -177,12 +217,19 @@
                         display: block;
                         padding: 30px 0px;
                     }
+                    @include md {
+                        display: block;
+                        padding: 30px 0px;
+                    }
                     li {
                         border: $border;
                         @include xs {
                             margin: 10px 0px;
                         }
                         @include sm {
+                            margin: 10px 0px;
+                        }
+                        @include md {
                             margin: 10px 0px;
                         }
                         a {
@@ -212,7 +259,56 @@
                                 }
                             }
                         }
+
+                        ul {
+                            padding: 0;
+                        }
+
+                        &.more_link {
+                            position: relative;
+                            > a {
+                                display: none;
+                            }
+                            @include lg {
+                                ul {
+                                    display: grid;
+                                    position: absolute;
+                                    top: 155%;
+                                    background: white;
+                                    box-shadow: 0px 0px 3px #8080809c;
+                                    padding: 15px;
+                                    min-width: 150px;
+                                    left: -27px;
+                                    li {
+                                        a {
+                                            margin-left: 0;
+                                            padding: 5px 0px;
+                                        }
+                                    }
+                                }
+                                > a {
+                                    display: block;
+                                }
+                            }
+                        }
                     }
+                    @include lg {
+                        .more_link {
+                            &:hover {
+                                .more_link_details {
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                            .more_link_details {
+                                // display: none;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition-duration: 0.4s;
+                            }
+                        }
+                    }
+                    
                 }
             }
             // nav_area end
@@ -226,6 +322,9 @@
                     display: none;
                 }
                 @include sm {
+                    display: none;
+                }
+                @include md {
                     display: none;
                 }
                 a {
@@ -251,6 +350,12 @@
                         border-radius: 0px;
                         margin-left: 0px;
                     }
+                    @include md {
+                        border: 0px;
+                        padding: 7px;
+                        border-radius: 0px;
+                        margin-left: 0px;
+                    }
 
                     &:hover {
                         background-color: $primary_color;
@@ -264,6 +369,10 @@
                             color: $white;
                             border: 0px;
                         }
+                        @include md {
+                            color: $white;
+                            border: 0px;
+                        }
                     }
                 }
             }
@@ -273,7 +382,7 @@
         .activee_class {
             // display: block;
             // display: none;
-            right: 0px;
+            left: 0px;
             opacity: 1;
             visibility: visible;
         }

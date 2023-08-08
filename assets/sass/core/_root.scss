@@ -3,6 +3,9 @@ html{
     /* width */
     ::-webkit-scrollbar {
         width: 10px;
+        @include xs{
+            width: 0px;
+        }
     }
 
     /* Track */
