@@ -188,6 +188,9 @@
                     border: $border;
                     margin-bottom: 12px;
                     display: flex;
+                    @include xs{
+                        margin-top: 20px;
+                    }
                     .logo {
                         border: $border;
 

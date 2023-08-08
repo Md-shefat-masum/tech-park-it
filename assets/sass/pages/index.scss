@@ -412,8 +412,10 @@
         @include xs() {
             display: block;
             text-align: center;
-            gap: 20px;
-            display: grid;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
         }
         @include sm() {
             display: block;
@@ -426,21 +428,30 @@
             border: $border;
             border: 1px solid $primary_color;
             border-radius: 8px;
+            @include xs{
+                width: 120px;
+            }
             a {
                 border: $border;
                 border-radius: 8px;
+                @include xs{
+                    width: 100%;
+                }
                 .course_icon {
                     border: $border;
                     padding: 29px 98px 0px 98px;
                     @include xs() {
-                        padding: 7px 80px 0px 80px;
+                        padding: 7px 10px 0px 10px;
+                    
+                       
                     }
                     @include md() {
                         padding: 16px 70px 0px 70px;
                     }
                     svg {
                         @include xs() {
-                            width: 60px;
+                            width: 40px;
+                            height: 60px;
                         }
                         @include md() {
                             width: 60px;
@@ -475,7 +486,7 @@
                         color: $mute_1;
                         transition-duration: 0.4s;
                         @include xs() {
-                            font-size: 18px;
+                            font-size: 13px;
                             line-height: 28px;
                         }
                         @include md() {
@@ -530,6 +541,9 @@
             }
             .area_title {
                 border: $border;
+                @include xs {
+                    font-size: 20px;
+                }
             }
         }
         // our_course_area_title end
@@ -548,7 +562,9 @@
                     display: block;
                     text-align: center;
                     gap: 10px;
-                    display: grid;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
                 }
                 @include sm() {
                     display: block;
@@ -587,7 +603,7 @@
                         transition-duration: 0.4s;
                         position: relative;
                         @include xs() {
-                            font-size: 18px;
+                            font-size: 14px;
                             line-height: 28px;
                         }
                         &:hover {
@@ -658,6 +674,10 @@
                         .amount_and_button_area {
                             .button_all {
                                 background-color: $primary_color;
+                                @include xs{
+                                    // width: 85px;
+                                    // display: block;
+                                }
                                 .btn-text {
                                     color: $white;
                                 }
@@ -792,9 +812,11 @@
                         border-top: 1px solid $off_orange;
                         margin-left: 16px;
                         @include xs() {
-                            display: block;
+                            // display: unset;
                             text-align: center;
                             margin: 0px 5px;
+
+                            // display: flex;
                         }
                         .all_amount {
                             border: $border;
@@ -810,6 +832,9 @@
                                     font-family: $font_semibold;
                                     color: $primary_color;
                                     padding-right: 6px;
+                                    @include xs{
+                                        font-size: 13px;
+                                    }
                                     .taka {
                                         border: $border;
                                         text-decoration: line-through;
@@ -823,6 +848,9 @@
                                     font-size: 20px;
                                     line-height: 30px;
                                     font-family: $font_semibold;
+                                    @include xs{
+                                        font-size: 16px;
+                                    }
                                     .taka {
                                         border: $border;
                                     }
@@ -843,11 +871,18 @@
                             // border: transparent;
                             @include xs() {
                                 margin: 10px 0px;
+                                padding: 10px 5px;
+                                width: 95px;
                             }
                             .btn-text {
                                 border: $border;
                                 padding-right: 8px;
                                 transition-duration: 0.4s;
+                                @include xs{
+                                    font-size: 12px;
+                                    display: unset;
+
+                                }
                             }
                             .btn_icon {
                                 border: $border;
@@ -858,6 +893,7 @@
 
                                     50% {
                                         transform: translate(10px);
+                                       
                                     }
 
                                     100% {
@@ -870,6 +906,9 @@
                                     font-size: 16px;
                                     color: $primary_color;
                                     transition-duration: 0.4s;
+                                    @include xs{
+                                        font-size: 12px;
+                                    }
                                 }
                                 // img {
                                 //     border: $border;
@@ -910,6 +949,9 @@
             padding-bottom: 72px;
             .area_title {
                 color: $white;
+                @include xs {
+                    font-size: 20px;
+                }
             }
         }
         // our_course_specialty_area_title end
@@ -935,6 +977,7 @@
                 align-content: space-between;
                 @include xs {
                     margin-bottom: 15px;
+                    display:flex;
                 }
                 @include lg {
                     width: 295px;
@@ -943,7 +986,7 @@
                     border: $border;
                     padding: 82px 120px;
                     @include xs {
-                        padding: 50px 84px;
+                        padding: 12px 10px;
                     }
                     @include lg {
                         padding: 50px 84px;
@@ -952,7 +995,7 @@
                         border: $border;
                         width: 175px;
                         @include xs {
-                            width: 100px;
+                            width: 50px;
                         }
                         @include lg {
                             width: 100px;
@@ -973,11 +1016,18 @@
                     width: 100%;
                     border-radius: 0px 0px 12px 12px;
                     padding: 35px 0px 29px 0px;
+                    @include xs {
+                        padding: 20px 0px 20px 0px;
+                        background-color: transparent;
+                    }
                     p {
                         border: $border;
                         font-size: 26px;
                         line-height: 39px;
                         font-family: $font_semibold;
+                        @include xs {
+                            font-size: 18px;
+                        }
                     }
                 }
             }
@@ -1201,6 +1251,12 @@
                 background-color: transparent;
                 padding: 0px;
                 position: relative;
+                @include lg{
+                    width: 400px;
+                }
+                @include xl{
+                    width: 500px;
+                }
                 // &::after{
                 //     content: '';
                 //     width: 130px;
@@ -1235,6 +1291,10 @@
                     @include xs() {
                         width: 70px;
                         height: 70px;
+                    }
+                    @include lg() {
+                        width: 90px;
+                        height: 90px;
                     }
 
                     i {
@@ -1339,8 +1399,12 @@
                 border: $border;
                 .profational_trainer_area_title {
                     border: $border;
+                    margin-top: 15px;
                     .area_title {
                         border: $border;
+                        @include xs{
+                            font-size: 20px;
+                        }
                     }
                 }
                 .profational_trainer_area_sub_title {
@@ -1917,6 +1981,10 @@
                 padding: 0px 10px;
             }
             .area_title {
+                @include xs {
+                    font-size: 20px;
+                }
+               
             }
         }
         // -working_company_name_area_title end
@@ -1929,15 +1997,16 @@
                 justify-content: center;
                 gap: 48px;
                 @include xs {
-                    display: grid;
-                    justify-content: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 25px;
                 }
                 .company_logo {
                     border: $border;
                     width: 193px;
                     height: 91px;
                     @include xs {
-                        width: 150px;
+                        width: 100px;
                         height: unset;
                     }
                     @include lg {
