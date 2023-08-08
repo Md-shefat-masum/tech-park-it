@@ -340,93 +340,156 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .header_area .header_area_content .nav_and_login_area {
     display: block;
-    background-color: #ecc9c9;
     position: absolute;
-    width: 100%;
     left: -1000px;
     opacity: 0;
     visibility: hidden;
     transition-duration: 0.4s;
     height: 100vh;
-    width: 70%;
+    width: 100%;
     position: fixed;
   }
 }
 @media (min-width: 576px) and (max-width: 767.9px) {
   .header_area .header_area_content .nav_and_login_area {
     display: block;
-    background-color: #ecc9c9;
     position: absolute;
-    width: 100%;
     left: -1000px;
     opacity: 0;
     visibility: hidden;
     transition-duration: 0.4s;
     height: 100vh;
-    width: 70%;
+    width: 100%;
     position: fixed;
   }
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
   .header_area .header_area_content .nav_and_login_area {
     display: block;
-    background-color: #ecc9c9;
     position: absolute;
-    width: 100%;
     left: -1000px;
     opacity: 0;
     visibility: hidden;
     transition-duration: 0.4s;
     height: 100vh;
-    width: 70%;
+    width: 100%;
     position: fixed;
   }
 }
-.header_area .header_area_content .nav_and_login_area .nav-area {
+.header_area .header_area_content .nav_and_login_area .full_nav_are {
+  display: flex;
+}
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are {
+    width: 70%;
+    height: 100%;
+    background-color: #ecc9c9;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are {
+    width: 70%;
+    height: 100%;
+    background-color: #ecc9c9;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are {
+    width: 70%;
+    height: 100%;
+    background-color: #ecc9c9;
+  }
+}
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area {
   border: 0px solid red;
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul {
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area {
+    width: 100%;
+  }
+}
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul {
   border: 0px solid red;
   display: flex;
   padding: 48px 0px;
 }
 @media screen and (max-width: 575.9px) {
-  .header_area .header_area_content .nav_and_login_area .nav-area ul {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul {
     display: block;
     padding: 30px 0px;
   }
 }
 @media (min-width: 576px) and (max-width: 767.9px) {
-  .header_area .header_area_content .nav_and_login_area .nav-area ul {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul {
     display: block;
     padding: 30px 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-  .header_area .header_area_content .nav_and_login_area .nav-area ul {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul {
     display: block;
     padding: 30px 0px;
   }
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul li {
+@media screen and (max-width: 575.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul .nav-area_all {
+    width: 30%;
+    background-color: rgba(20, 20, 20, 0.431372549);
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul .nav-area_all {
+    width: 30%;
+    background-color: rgba(20, 20, 20, 0.431372549);
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul .nav-area_all {
+    width: 30%;
+    background-color: rgba(20, 20, 20, 0.431372549);
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li {
   border: 0px solid red;
 }
 @media screen and (max-width: 575.9px) {
-  .header_area .header_area_content .nav_and_login_area .nav-area ul li {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li {
     margin: 10px 0px;
   }
 }
 @media (min-width: 576px) and (max-width: 767.9px) {
-  .header_area .header_area_content .nav_and_login_area .nav-area ul li {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li {
     margin: 10px 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-  .header_area .header_area_content .nav_and_login_area .nav-area ul li {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li {
     margin: 10px 0px;
   }
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul li a {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li a {
   border: 0px solid red;
   font-size: 16px;
   line-height: 24px;
@@ -436,7 +499,7 @@ html ::-webkit-scrollbar-thumb:hover {
   transition-duration: 0.4s;
   position: relative;
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul li a::before {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li a::before {
   content: "";
   width: 100%;
   height: 2px;
@@ -445,23 +508,23 @@ html ::-webkit-scrollbar-thumb:hover {
   top: 19px;
   transition-duration: 0.4s;
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul li a.active_button, .header_area .header_area_content .nav_and_login_area .nav-area ul li a:hover {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li a.active_button, .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li a:hover {
   color: #dc2626;
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul li a.active_button::before, .header_area .header_area_content .nav_and_login_area .nav-area ul li a:hover::before {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li a.active_button::before, .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li a:hover::before {
   background-color: #dc2626;
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul li ul {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li ul {
   padding: 0;
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul li.more_link {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li.more_link {
   position: relative;
 }
-.header_area .header_area_content .nav_and_login_area .nav-area ul li.more_link > a {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li.more_link > a {
   display: none;
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
-  .header_area .header_area_content .nav_and_login_area .nav-area ul li.more_link ul {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li.more_link ul {
     display: grid;
     position: absolute;
     top: 155%;
@@ -471,46 +534,46 @@ html ::-webkit-scrollbar-thumb:hover {
     min-width: 150px;
     left: -27px;
   }
-  .header_area .header_area_content .nav_and_login_area .nav-area ul li.more_link ul li a {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li.more_link ul li a {
     margin-left: 0;
     padding: 5px 0px;
   }
-  .header_area .header_area_content .nav_and_login_area .nav-area ul li.more_link > a {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul li.more_link > a {
     display: block;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
-  .header_area .header_area_content .nav_and_login_area .nav-area ul .more_link:hover .more_link_details {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul .more_link:hover .more_link_details {
     opacity: 1;
     visibility: visible;
   }
-  .header_area .header_area_content .nav_and_login_area .nav-area ul .more_link .more_link_details {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .nav-area ul .more_link .more_link_details {
     opacity: 0;
     visibility: hidden;
     transition-duration: 0.4s;
   }
 }
-.header_area .header_area_content .nav_and_login_area .login_area {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .login_area {
   border: 0px solid red;
   align-items: center;
   display: flex;
 }
 @media screen and (max-width: 575.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area {
     display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 767.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area {
     display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area {
     display: none;
   }
 }
-.header_area .header_area_content .nav_and_login_area .login_area a {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .login_area a {
   border: 0px solid red;
   font-size: 16px;
   line-height: 12px;
@@ -523,7 +586,7 @@ html ::-webkit-scrollbar-thumb:hover {
   transition-duration: 0.4s;
 }
 @media screen and (max-width: 575.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area a {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area a {
     border: 0px;
     padding: 7px;
     border-radius: 0px;
@@ -531,7 +594,7 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 @media (min-width: 576px) and (max-width: 767.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area a {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area a {
     border: 0px;
     padding: 7px;
     border-radius: 0px;
@@ -539,32 +602,32 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area a {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area a {
     border: 0px;
     padding: 7px;
     border-radius: 0px;
     margin-left: 0px;
   }
 }
-.header_area .header_area_content .nav_and_login_area .login_area a:hover {
+.header_area .header_area_content .nav_and_login_area .full_nav_are .login_area a:hover {
   background-color: #dc2626;
   color: #ffffff;
   border: 1px solid transparent;
 }
 @media screen and (max-width: 575.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area a:hover {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area a:hover {
     color: #ffffff;
     border: 0px;
   }
 }
 @media (min-width: 576px) and (max-width: 767.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area a:hover {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area a:hover {
     color: #ffffff;
     border: 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-  .header_area .header_area_content .nav_and_login_area .login_area a:hover {
+  .header_area .header_area_content .nav_and_login_area .full_nav_are .login_area a:hover {
     color: #ffffff;
     border: 0px;
   }

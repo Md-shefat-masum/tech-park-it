@@ -161,50 +161,69 @@
             justify-content: end;
             @include xs {
                 display: block;
-                background-color: #ecc9c9;
+                // background-color: #1414146e;
                 position: absolute;
-                width: 100%;
                 left: -1000px;
                 opacity: 0;
                 visibility: hidden;
                 transition-duration: 0.4s;
                 height: 100vh;
-
-                width: 70%;
+                width: 100%;
                 position: fixed;
             }
             @include sm {
                 display: block;
-                background-color: #ecc9c9;
+                // background-color: #1414146e;
                 position: absolute;
-                width: 100%;
                 left: -1000px;
                 opacity: 0;
                 visibility: hidden;
                 transition-duration: 0.4s;
                 height: 100vh;
-
-                width: 70%;
+                width: 100%;
                 position: fixed;
             }
             @include md {
                 display: block;
-                background-color: #ecc9c9;
+                // background-color: #1414146e;
                 position: absolute;
-                width: 100%;
                 left: -1000px;
                 opacity: 0;
                 visibility: hidden;
                 transition-duration: 0.4s;
                 height: 100vh;
-
-                width: 70%;
+                width: 100%;
                 position: fixed;
             }
-            // nav_area start
+            .full_nav_are{
+                display: flex;
+                @include xs {
+                    width: 70%;
+                    height: 100%;
+                    background-color: #ecc9c9;
+                }
+                @include sm {
+                    width: 70%;
+                    height: 100%;
+                    background-color: #ecc9c9;
+                }
+                @include md {
+                    width: 70%;
+                    height: 100%;
+                    background-color: #ecc9c9;
+                }
+                // nav_area start
             .nav-area {
                 border: $border;
-
+                @include xs {
+                    width: 100%;
+                  }
+                @include sm {
+                    width: 100%;
+                  }
+                @include md {
+                    width: 100%;
+                  }
                 ul {
                     border: $border;
                     display: flex;
@@ -221,10 +240,37 @@
                         display: block;
                         padding: 30px 0px;
                     }
+                    .nav-area_all{
+                       @include xs{
+                        width: 30%;
+                        background-color: #1414146e;
+                        height: 100vh;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                       }
+                       @include sm{
+                        width: 30%;
+                        background-color: #1414146e;
+                        height: 100vh;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                       }
+                       @include md{
+                        width: 30%;
+                        background-color: #1414146e;
+                        height: 100vh;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                       }
+                    }
                     li {
                         border: $border;
                         @include xs {
                             margin: 10px 0px;
+                           
                         }
                         @include sm {
                             margin: 10px 0px;
@@ -377,6 +423,8 @@
                 }
             }
             // login_area end
+            }
+            
         }
         // active_class start
         .activee_class {
