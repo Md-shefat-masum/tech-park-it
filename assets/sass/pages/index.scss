@@ -1191,6 +1191,9 @@
                         line-height: 30px;
                         font-family: $font_bold;
                         color: $mute_2;
+                        @include lg() {
+                            font-size: 16px;
+                        }
                     }
                     .arrow {
                         border: $border;
