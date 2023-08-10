@@ -418,23 +418,33 @@
             gap: 15px;
         }
         @include sm() {
-            display: block;
-            text-align: center;
-            gap: 20px;
-            display: grid;
+            // display: block;
+            // text-align: center;
+            // gap: 20px;
+            // display: grid;
+            flex-wrap: wrap;
         }
         // course item start
         .course {
             border: $border;
             border: 1px solid $primary_color;
             border-radius: 8px;
-            @include xs{
+            @include xs {
                 width: 120px;
+            }
+            @include sm {
+                width: 200px;
+                overflow: hidden;
+                justify-content: center;
+                display: flex;
             }
             a {
                 border: $border;
                 border-radius: 8px;
-                @include xs{
+                @include xs {
+                    width: 100%;
+                }
+                @include sm {
                     width: 100%;
                 }
                 .course_icon {
@@ -442,8 +452,11 @@
                     padding: 29px 98px 0px 98px;
                     @include xs() {
                         padding: 7px 10px 0px 10px;
-                    
-                       
+                    }
+                    @include sm() {
+                        padding: 29px 0px 0px 0px;
+                        justify-content: center;
+                        display: flex;
                     }
                     @include md() {
                         padding: 16px 70px 0px 70px;
@@ -452,6 +465,9 @@
                         @include xs() {
                             width: 40px;
                             height: 60px;
+                        }
+                        @include sm() {
+                            width: 50px;
                         }
                         @include md() {
                             width: 60px;
@@ -488,6 +504,9 @@
                         @include xs() {
                             font-size: 13px;
                             line-height: 28px;
+                        }
+                        @include sm() {
+                            font-size: 20px;
                         }
                         @include md() {
                             font-size: 18px;
@@ -567,10 +586,11 @@
                     justify-content: center;
                 }
                 @include sm() {
-                    display: block;
-                    text-align: center;
                     gap: 10px;
-                    display: grid;
+                    justify-content: center;
+                }
+                @include md() {
+                    justify-content: center;
                 }
                 li {
                     border: $border;
@@ -590,6 +610,9 @@
                         @include sm() {
                             margin-left: 0px;
                         }
+                        @include md() {
+                            margin-left: 0px;
+                        }
                         @include lg {
                             margin-left: 0px;
                         }
@@ -605,6 +628,12 @@
                         @include xs() {
                             font-size: 14px;
                             line-height: 28px;
+                        }
+                        @include sm() {
+                            font-size: 18px;
+                        }
+                        @include md() {
+                            font-size: 20px;
                         }
                         &:hover {
                             color: $primary_color;
@@ -646,6 +675,10 @@
                 display: block;
                 margin: unset;
             }
+            @include md() {
+                display: flex;
+                flex-wrap: wrap;
+            }
             @include lg {
                 grid-template-columns: 1fr 1fr;
             }
@@ -663,6 +696,13 @@
                 @include xs() {
                     margin: 20px 10px 0px 12px;
                 }
+                @include sm() {
+                    margin: 20px 10px 0px 12px;
+                    width: 350px;
+                    margin: auto;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
 
                 &:hover {
                     .card_title_area {
@@ -674,7 +714,7 @@
                         .amount_and_button_area {
                             .button_all {
                                 background-color: $primary_color;
-                                @include xs{
+                                @include xs {
                                     // width: 85px;
                                     // display: block;
                                 }
@@ -832,7 +872,7 @@
                                     font-family: $font_semibold;
                                     color: $primary_color;
                                     padding-right: 6px;
-                                    @include xs{
+                                    @include xs {
                                         font-size: 13px;
                                     }
                                     .taka {
@@ -848,7 +888,7 @@
                                     font-size: 20px;
                                     line-height: 30px;
                                     font-family: $font_semibold;
-                                    @include xs{
+                                    @include xs {
                                         font-size: 16px;
                                     }
                                     .taka {
@@ -878,10 +918,9 @@
                                 border: $border;
                                 padding-right: 8px;
                                 transition-duration: 0.4s;
-                                @include xs{
+                                @include xs {
                                     font-size: 12px;
                                     display: unset;
-
                                 }
                             }
                             .btn_icon {
@@ -893,7 +932,6 @@
 
                                     50% {
                                         transform: translate(10px);
-                                       
                                     }
 
                                     100% {
@@ -906,7 +944,7 @@
                                     font-size: 16px;
                                     color: $primary_color;
                                     transition-duration: 0.4s;
-                                    @include xs{
+                                    @include xs {
                                         font-size: 12px;
                                     }
                                 }
@@ -937,6 +975,12 @@
         padding-top: 60px;
         padding-bottom: 50px;
     }
+    @include sm {
+        padding-bottom: 120px;
+    }
+    @include md {
+        padding-bottom: 120px;
+    }
     @include lg {
         padding-bottom: 100px;
     }
@@ -965,6 +1009,16 @@
             @include xs {
                 display: block;
             }
+            @include sm {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            @include md {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
 
             // card start
             .c_card {
@@ -977,7 +1031,7 @@
                 align-content: space-between;
                 @include xs {
                     margin-bottom: 15px;
-                    display:flex;
+                    display: flex;
                 }
                 @include lg {
                     width: 295px;
@@ -988,6 +1042,12 @@
                     @include xs {
                         padding: 12px 10px;
                     }
+                    @include sm {
+                        padding: 28px 70px;
+                    }
+                    @include md {
+                        padding: 40px 78px;
+                    }
                     @include lg {
                         padding: 50px 84px;
                     }
@@ -996,6 +1056,9 @@
                         width: 175px;
                         @include xs {
                             width: 50px;
+                        }
+                        @include sm {
+                            width: 100px;
                         }
                         @include lg {
                             width: 100px;
@@ -1027,6 +1090,9 @@
                         font-family: $font_semibold;
                         @include xs {
                             font-size: 18px;
+                        }
+                        @include sm {
+                            font-size: 20px;
                         }
                     }
                 }
@@ -1097,10 +1163,19 @@
                 @include xs {
                     display: block;
                 }
+                @include sm {
+                    gap: 10px;
+                }
+                @include md {
+                    gap: 20px;
+                }
                 li {
                     border: $border;
                     text-align: center;
                     position: relative;
+                    @include sm {
+                        width: 100%;
+                    }
                     .step_number {
                         border: $border;
                         width: 48px;
@@ -1148,18 +1223,36 @@
                             }
                             .arrow_1 {
                                 width: 147px;
+                                @include sm {
+                                    width: 60px;
+                                }
+                                @include md {
+                                    width: 75px;
+                                }
                                 @include lg {
                                     width: 125px;
                                 }
                             }
                             .arrow_2 {
                                 width: 256px;
+                                @include sm {
+                                    width: 66px;
+                                }
+                                @include md {
+                                    width: 155px;
+                                }
                                 @include lg {
                                     width: 212px;
                                 }
                             }
                             .arrow_3 {
                                 width: 220px;
+                                @include sm {
+                                    width: 68px;
+                                }
+                                @include md {
+                                    width: 130px;
+                                }
                                 @include lg {
                                     width: 190px;
                                 }
@@ -1167,20 +1260,38 @@
                         }
                         .arrow_area_1 {
                             right: -159px;
+                            @include sm {
+                                right: -72px;
+                            }
+                            @include md {
+                                right: -90px;
+                            }
                             @include lg {
-                                right: -147px;
+                                right: -136px;
                             }
                         }
                         .arrow_area_2 {
                             right: -268px;
+                            @include sm {
+                                right: -78px;
+                            }
+                            @include md {
+                                right: -174px;
+                            }
                             @include lg {
-                                right: -242px;
+                                right: -224px;
                             }
                         }
                         .arrow_area_3 {
                             right: -232px;
+                            @include sm {
+                                right: -78px;
+                            }
+                            @include md {
+                                right: -147px;
+                            }
                             @include lg {
-                                right: -220px;
+                                right: -199px;
                             }
                         }
                     }
@@ -1191,6 +1302,13 @@
                         line-height: 30px;
                         font-family: $font_bold;
                         color: $mute_2;
+                        @include sm() {
+                            font-size: 15px;
+                            line-height: 25px;
+                        }
+                        @include md() {
+                            font-size: 16px;
+                        }
                         @include lg() {
                             font-size: 16px;
                         }
@@ -1254,10 +1372,16 @@
                 background-color: transparent;
                 padding: 0px;
                 position: relative;
-                @include lg{
+                @include sm {
+                    width: 240px;
+                }
+                @include md {
+                    width: 330px;
+                }
+                @include lg {
                     width: 400px;
                 }
-                @include xl{
+                @include xl {
                     width: 500px;
                 }
                 // &::after{
@@ -1295,6 +1419,14 @@
                         width: 70px;
                         height: 70px;
                     }
+                    @include sm() {
+                        width: 75px;
+                        height: 75px;
+                    }
+                    @include md() {
+                        width: 85px;
+                        height: 85px;
+                    }
                     @include lg() {
                         width: 90px;
                         height: 90px;
@@ -1306,6 +1438,12 @@
                         color: $white;
                         @include xs() {
                             font-size: 30px;
+                        }
+                        @include sm() {
+                            font-size: 32px;
+                        }
+                        @include md() {
+                            font-size: 35px;
                         }
                     }
                 }
@@ -1405,8 +1543,17 @@
                     margin-top: 15px;
                     .area_title {
                         border: $border;
-                        @include xs{
+                        @include xs {
                             font-size: 20px;
+                        }
+                        @include sm {
+                            font-size: 30px;
+                        }
+                        @include md {
+                            font-size: 26px;
+                        }
+                        @include lg {
+                            font-size: 37px;
                         }
                     }
                 }
@@ -1504,6 +1651,9 @@
                 border: $border;
                 .area_title {
                     border: $border;
+                    @include sm() {
+                        font-size: 30px;
+                    }
                 }
             }
             // free_seminar_area title end
@@ -1693,15 +1843,27 @@
                 @include xs() {
                     width: 272px;
                 }
+                @include sm() {
+                    width: 100%;
+                }
                 @include lg {
-                    width: 406%;
+                    width: 100%;
+                }
+                @include xl {
+                    width: 100%;
                 }
                 img {
                     border: $border;
                     @include xs() {
                         width: 100%;
                     }
+                    @include sm() {
+                        width: 100%;
+                    }
                     @include lg {
+                        width: 100%;
+                    }
+                    @include xl {
                         width: 100%;
                     }
                 }
@@ -1730,6 +1892,12 @@
                 margin-bottom: 25px;
                 .area_title {
                     border: $border;
+                    @include sm() {
+                        font-size: 30px;
+                    }
+                    @include md() {
+                        font-size: 29px;
+                    }
                 }
             }
             // job_career_area title end
@@ -1738,12 +1906,24 @@
                 @include xs() {
                     width: 272px;
                 }
+                @include sm() {
+                    width: 100%;
+                }
+                @include md() {
+                    width: 100%;
+                }
                 @include lg {
                     width: 454px;
                 }
                 img {
                     border: $border;
                     @include xs() {
+                        width: 100%;
+                    }
+                    @include sm() {
+                        width: 100%;
+                    }
+                    @include md() {
                         width: 100%;
                     }
                     @include lg {
@@ -1850,6 +2030,9 @@
                 @include xs {
                     padding-top: 40px;
                 }
+                @include sm {
+                   font-size: 30px;
+                }
             }
         }
         // my_it_service_area_title end
@@ -1869,6 +2052,17 @@
             flex-wrap: wrap;
             justify-content: space-between;
             gap: 30px;
+            @include xs {
+                justify-content: center;
+            }
+            @include sm {
+                gap: 10px;
+                justify-content: center;
+            }
+            @include md {
+                gap: 40px;
+                justify-content: center;
+            }
             @include lg {
                 justify-content: center;
             }
@@ -1882,6 +2076,12 @@
                 // border-radius: 16px;
                 background-color: $white;
                 border-radius: 16px;
+                @include sm {
+                    width: 250px;
+                }
+                @include md {
+                    width: 300px;
+                }
                 .service_logo {
                     border: $border;
                     text-align: center;
@@ -1893,6 +2093,12 @@
                     img {
                         @include xs {
                             width: 100px;
+                        }
+                        @include sm {
+                            width: 100px;
+                        }
+                        @include md {
+                            width: 120px;
                         }
                     }
                 }
@@ -1945,6 +2151,9 @@
                         @include xs {
                             font-size: 20px;
                         }
+                        @include sm {
+                            font-size: 20px;
+                        }
                     }
                 }
                 .description {
@@ -1987,7 +2196,9 @@
                 @include xs {
                     font-size: 20px;
                 }
-               
+                @include sm {
+                    font-size: 30px;
+                }
             }
         }
         // -working_company_name_area_title end
@@ -2004,6 +2215,12 @@
                     flex-wrap: wrap;
                     gap: 25px;
                 }
+                @include sm {
+                    gap: 5px;
+                }
+                @include md {
+                    gap: 10px;
+                }
                 .company_logo {
                     border: $border;
                     width: 193px;
@@ -2012,8 +2229,14 @@
                         width: 100px;
                         height: unset;
                     }
+                    @include sm {
+                        height: unset;
+                    }
+                    @include md {
+                        height: unset;
+                    }
                     @include lg {
-                       height: 0px;
+                        height: 0px;
                     }
                     a {
                         img {

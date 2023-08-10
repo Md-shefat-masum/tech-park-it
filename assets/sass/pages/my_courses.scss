@@ -1,7 +1,7 @@
 .my_courses_area {
     .my_courses {
         margin-top: 100px;
-        @include xs(){
+        @include xs() {
             margin-top: 40px;
         }
         .my_courses_title {
@@ -13,10 +13,10 @@
             font-style: normal;
             font-weight: 600;
             line-height: 150%; /* 61.5px */
-            @include xs(){
+            @include xs() {
                 font-size: 18px;
             }
-            @include lg(){
+            @include lg() {
                 font-size: 36px;
             }
         }
@@ -25,12 +25,11 @@
             align-items: center;
             justify-content: space-between;
             gap: 20px;
-            @include xs(){
+            @include xs() {
                 flex-direction: column;
                 gap: 0px;
-                
             }
-            @include lg(){
+            @include lg() {
                 gap: 20px;
             }
             .complete_course {
@@ -41,12 +40,12 @@
                 padding: 32px 24px;
                 margin-top: 40px;
                 width: 411px;
-                @include xs(){
+                @include xs() {
                     width: 100%;
                     margin-top: 20px;
                     padding: 20px 20px;
                 }
-                @include lg(){
+                @include lg() {
                     width: 100%;
                     padding: 32px 20px;
                 }
@@ -58,21 +57,21 @@
                     height: 120px;
                     background-color: #d5f4e2;
                     border-radius: 6px;
-                    @include xs(){
+                    @include xs() {
                         width: 60px;
                         height: 60px;
                     }
-                    @include lg(){
+                    @include lg() {
                         width: 100px;
                         height: 100px;
                     }
                     i {
                         font-size: 60px;
                         color: #219653;
-                        @include xs(){
+                        @include xs() {
                             font-size: 30px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 50px;
                         }
                     }
@@ -86,10 +85,10 @@
                         font-style: normal;
                         font-weight: 500;
                         line-height: 150%; /* 39px */
-                        @include xs(){
+                        @include xs() {
                             font-size: 16px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 24px;
                         }
                     }
@@ -101,10 +100,10 @@
                         font-weight: 600;
                         line-height: 150%; /* 48px */
                         margin-top: 16px;
-                        @include xs(){
+                        @include xs() {
                             font-size: 18px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 28px;
                         }
                     }
@@ -118,12 +117,12 @@
                 padding: 32px 24px;
                 margin-top: 40px;
                 width: 411px;
-                @include xs(){
+                @include xs() {
                     width: 100%;
                     margin-top: 20px;
                     padding: 20px 20px;
                 }
-                @include lg(){
+                @include lg() {
                     width: 100%;
                     padding: 32px 20px;
                 }
@@ -135,21 +134,21 @@
                     height: 120px;
                     background-color: #dcebff;
                     border-radius: 6px;
-                    @include xs(){
+                    @include xs() {
                         width: 60px;
                         height: 60px;
                     }
-                    @include lg(){
+                    @include lg() {
                         width: 100px;
                         height: 100px;
                     }
                     i {
                         font-size: 60px;
                         color: #2f80ed;
-                        @include xs(){
+                        @include xs() {
                             font-size: 30px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 50px;
                         }
                     }
@@ -163,10 +162,10 @@
                         font-style: normal;
                         font-weight: 500;
                         line-height: 150%; /* 39px */
-                        @include xs(){
+                        @include xs() {
                             font-size: 16px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 24px;
                         }
                     }
@@ -178,10 +177,10 @@
                         font-weight: 600;
                         line-height: 150%; /* 48px */
                         margin-top: 16px;
-                        @include xs(){
+                        @include xs() {
                             font-size: 18px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 28px;
                         }
                     }
@@ -195,12 +194,12 @@
                 padding: 32px 24px;
                 margin-top: 40px;
                 width: 411px;
-                @include xs(){
+                @include xs() {
                     width: 100%;
                     margin-top: 20px;
                     padding: 20px 20px;
                 }
-                @include lg(){
+                @include lg() {
                     width: 100%;
                     padding: 32px 20px;
                 }
@@ -212,21 +211,21 @@
                     height: 120px;
                     background-color: #fee2e2;
                     border-radius: 6px;
-                    @include xs(){
+                    @include xs() {
                         width: 60px;
                         height: 60px;
                     }
-                    @include lg(){
+                    @include lg() {
                         width: 100px;
                         height: 100px;
                     }
                     i {
                         font-size: 60px;
                         color: #dc2626;
-                        @include xs(){
+                        @include xs() {
                             font-size: 30px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 50px;
                         }
                     }
@@ -240,10 +239,10 @@
                         font-style: normal;
                         font-weight: 500;
                         line-height: 150%; /* 39px */
-                        @include xs(){
+                        @include xs() {
                             font-size: 16px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 24px;
                         }
                     }
@@ -255,10 +254,10 @@
                         font-weight: 600;
                         line-height: 150%; /* 48px */
                         margin-top: 16px;
-                        @include xs(){
+                        @include xs() {
                             font-size: 18px;
                         }
-                        @include lg(){
+                        @include lg() {
                             font-size: 28px;
                         }
                     }
@@ -278,12 +277,12 @@
             font-style: normal;
             font-weight: 600;
             line-height: 150%; /* 39px */
-            @include xs(){
+            @include xs() {
                 font-size: 18px;
             }
         }
-        .contunued_courses_border{
-            border-bottom: 1px solid #D2D2D2;
+        .contunued_courses_border {
+            border-bottom: 1px solid #d2d2d2;
             margin-top: 12px;
         }
         .my_contunued_all_courses {
@@ -292,7 +291,7 @@
             gap: 32px;
             justify-content: center;
             grid-template-columns: repeat(3, 1fr);
-            @include xs(){
+            @include xs() {
                 grid-template-columns: repeat(1, 1fr);
             }
             .c_card {
@@ -523,6 +522,21 @@
 
                                     100% {
                                         transform: translate(0px);
+                                    }
+                                }
+                                @include xs {
+                                    @keyframes right_animation {
+                                        0% {
+                                            transform: translate(0px);
+                                        }
+
+                                        50% {
+                                            transform: translate(4px);
+                                        }
+
+                                        100% {
+                                            transform: translate(0px);
+                                        }
                                     }
                                 }
                                 animation: right_animation 2s linear infinite;
