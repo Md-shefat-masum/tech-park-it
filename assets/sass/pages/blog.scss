@@ -5,6 +5,12 @@
     @include xs {
         margin-top: 60px;
     }
+    @include sm {
+        margin-top: 60px;
+    }
+    @include md {
+        margin-top: 60px;
+    }
     // science_and_technology_content start
     .science_and_technology_content {
         border: $border;
@@ -16,13 +22,28 @@
             display: block;
             margin-bottom: 60px;
         }
+        @include sm {
+            display: block;
+            margin-bottom: 60px;
+        }
+        @include md {
+            display: block;
+            margin-bottom: 60px;
+        }
         .science_and_technology_text_area {
             border: $border;
             width: 561px;
             @include xs {
                 width: 100%;
                 margin-bottom: 30px;
-
+            }
+            @include sm {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            @include md {
+                width: 100%;
+                margin-bottom: 30px;
             }
             .title {
                 border: $border;
@@ -48,6 +69,10 @@
                         font-size: 25px;
                         line-height: 35px;
                     }
+                    @include sm {
+                        font-size: 30px;
+                        line-height: 40px;
+                    }
                 }
             }
             .sub_content_text_and_button {
@@ -64,10 +89,10 @@
                     margin-bottom: 16px;
                     margin-left: 40px;
                     @include xs {
-                        margin-left: 0px;
+                        margin-left: 20px;
                     }
                     @include lg {
-                        margin-left: 0px;
+                        margin-left: 20px;
                     }
                     .text {
                         border: $border;
@@ -107,6 +132,13 @@
             width: 100%;
             margin: auto;
         }
+        @include sm {
+            width: 330px;
+            margin: auto;
+        }
+        @include md {
+            margin: auto;
+        }
         .blog_img {
             width: 100%;
             border-radius: 8px;
@@ -117,8 +149,7 @@
             top: 0;
             left: -66px;
             @include xs {
-            display: none;
-
+                display: none;
             }
         }
         .color_image_right {
@@ -128,8 +159,7 @@
             right: -98px;
             @include xs {
                 display: none;
-    
-                }
+            }
         }
     }
     // science_and_technology_content end
@@ -143,6 +173,14 @@
             gap: 24px;
             @include xs {
                 gap: 1px;
+                flex-wrap: wrap;
+            }
+            @include sm {
+                gap: 5px;
+                flex-wrap: wrap;
+            }
+            @include md {
+                gap: 5px;
                 flex-wrap: wrap;
             }
             @include lg {
@@ -178,17 +216,34 @@
         display: flex;
         flex-wrap: wrap;
         gap: 47px;
+        @include xs {
+            justify-content: center;
+        }
         @include lg {
             gap: 30px;
-        justify-content: center;
+            justify-content: center;
+        }
+        @include sm {
+            gap: 15px;
+            justify-content: center;
+        }
+        @include md {
+            gap: 20px;
+            justify-content: center;
         }
         @include xl {
-        justify-content: center;
+            justify-content: center;
         }
         .blog {
             border: $border;
             width: 400px;
             position: relative;
+            @include sm {
+                width: 249px;
+            }
+            @include md {
+                width: 330px;
+            }
             .blog_image_and_image_button_area {
                 border: $border;
                 z-index: 99999;
@@ -255,6 +310,10 @@
                         font-family: $font_semibold;
                         line-height: 40px;
                         color: $mute_1;
+                        @include xs {
+                            font-size: 20px;
+                            line-height: 30px;
+                        }
                     }
                 }
                 .text_sub_title {
@@ -281,7 +340,7 @@
         margin-bottom: 120px;
         @include xs {
             margin-top: 40px;
-        margin-bottom: 60px;
+            margin-bottom: 60px;
         }
         ul {
             border: $border;
@@ -346,6 +405,14 @@
             width: 100%;
             padding: 0px 10px;
         }
+        @include sm {
+            width: 100%;
+            padding: 0px 10px;
+        }
+        @include md {
+            width: 100%;
+            padding: 0px 10px;
+        }
         @include lg {
             width: 100%;
         }
@@ -364,7 +431,7 @@
                 color: $mute_1;
                 @include xs {
                     font-size: 19px;
-                line-height: 29px;
+                    line-height: 29px;
                 }
             }
         }
@@ -397,7 +464,15 @@
                     border: 1px solid #d1d5db;
                     outline: 0;
                     @include xs {
-                        width:100%;
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    @include sm {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    @include md {
+                        width: 100%;
                         margin-bottom: 10px;
                     }
                     @include lg {
@@ -417,10 +492,16 @@
                     border: 1px solid #d1d5db;
                     transition-duration: 0.4s;
                     @include xs {
-                       margin-left: 0px;
+                        margin-left: 0px;
+                    }
+                    @include sm {
+                        margin-left: 0px;
+                    }
+                    @include md {
+                        margin-left: 0px;
                     }
                     @include lg {
-                       margin-left: 0px;
+                        margin-left: 0px;
                     }
                     &:hover {
                         background-color: $primary_color;

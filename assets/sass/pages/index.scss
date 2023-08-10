@@ -684,13 +684,17 @@
             }
             .c_card {
                 border: 1px solid rgb(228, 227, 227);
-                display: grid;
-                align-content: space-between;
+                // display: grid;
+                // align-content: space-between;
                 background-color: $white;
 
                 margin-bottom: 49px;
                 border-radius: 8px 8px 0px;
 
+
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
                 // margin-bottom: 49px;
 
                 @include xs() {
@@ -774,6 +778,10 @@
                 .card_title_area {
                     // border-top: 2px solid #e0e0e0;
                     padding-top: 17px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex: 1;
                     .card_title {
                         border: $border;
                         padding-bottom: 14px;

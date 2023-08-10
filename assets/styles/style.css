@@ -1468,11 +1468,12 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card {
   border: 1px solid rgb(228, 227, 227);
-  display: grid;
-  align-content: space-between;
   background-color: #ffffff;
   margin-bottom: 49px;
   border-radius: 8px 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 @media screen and (max-width: 575.9px) {
   .our_course_area .our_course_area_content .our_course_all_card .c_card {
@@ -1535,6 +1536,10 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area {
   padding-top: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card .card_title_area .card_title {
   border: 0px solid red;
@@ -3848,6 +3853,16 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-top: 60px;
   }
 }
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology {
+    margin-top: 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .science_and_technology {
+    margin-top: 60px;
+  }
+}
 .science_and_technology .science_and_technology_content {
   border: 0px solid red;
   display: flex;
@@ -3861,11 +3876,35 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-bottom: 60px;
   }
 }
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .science_and_technology_content {
+    display: block;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .science_and_technology .science_and_technology_content {
+    display: block;
+    margin-bottom: 60px;
+  }
+}
 .science_and_technology .science_and_technology_content .science_and_technology_text_area {
   border: 0px solid red;
   width: 561px;
 }
 @media screen and (max-width: 575.9px) {
+  .science_and_technology .science_and_technology_content .science_and_technology_text_area {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .science_and_technology_content .science_and_technology_text_area {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
   .science_and_technology .science_and_technology_content .science_and_technology_text_area {
     width: 100%;
     margin-bottom: 30px;
@@ -3899,6 +3938,12 @@ html ::-webkit-scrollbar-thumb:hover {
     line-height: 35px;
   }
 }
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .science_and_technology_content .science_and_technology_text_area .content_text .text {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button {
   border: 0px solid red;
 }
@@ -3916,12 +3961,12 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .sub_content_text {
-    margin-left: 0px;
+    margin-left: 20px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
   .science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .sub_content_text {
-    margin-left: 0px;
+    margin-left: 20px;
   }
 }
 .science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .sub_content_text .text {
@@ -3962,6 +4007,17 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .science_and_technology .science_and_technology_img_area {
     width: 100%;
+    margin: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .science_and_technology_img_area {
+    width: 330px;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .science_and_technology .science_and_technology_img_area {
     margin: auto;
   }
 }
@@ -4006,6 +4062,18 @@ html ::-webkit-scrollbar-thumb:hover {
     flex-wrap: wrap;
   }
 }
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .blog_nav ul {
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .science_and_technology .blog_nav ul {
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199.9px) {
   .science_and_technology .blog_nav ul {
     gap: 2px;
@@ -4037,9 +4105,26 @@ html ::-webkit-scrollbar-thumb:hover {
   flex-wrap: wrap;
   gap: 47px;
 }
+@media screen and (max-width: 575.9px) {
+  .science_and_technology .blog_list {
+    justify-content: center;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199.9px) {
   .science_and_technology .blog_list {
     gap: 30px;
+    justify-content: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .blog_list {
+    gap: 15px;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .science_and_technology .blog_list {
+    gap: 20px;
     justify-content: center;
   }
 }
@@ -4052,6 +4137,16 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   width: 400px;
   position: relative;
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .blog_list .blog {
+    width: 249px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .science_and_technology .blog_list .blog {
+    width: 330px;
+  }
 }
 .science_and_technology .blog_list .blog .blog_image_and_image_button_area {
   border: 0px solid red;
@@ -4120,6 +4215,12 @@ html ::-webkit-scrollbar-thumb:hover {
   font-family: "SemiBold";
   line-height: 40px;
   color: #1c1c1c;
+}
+@media screen and (max-width: 575.9px) {
+  .science_and_technology .blog_list .blog .blog_text_content .text_title .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 .science_and_technology .blog_list .blog .blog_text_content .text_sub_title {
   border: 0px solid red;
@@ -4208,6 +4309,18 @@ html ::-webkit-scrollbar-thumb:hover {
     padding: 0px 10px;
   }
 }
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .subscribe_area {
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .science_and_technology .subscribe_area {
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199.9px) {
   .science_and_technology .subscribe_area {
     width: 100%;
@@ -4272,6 +4385,18 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-bottom: 10px;
   }
 }
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .subscribe_area form .subscribe_form_area input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .science_and_technology .subscribe_area form .subscribe_form_area input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199.9px) {
   .science_and_technology .subscribe_area form .subscribe_form_area input {
     margin-bottom: 10px;
@@ -4291,6 +4416,16 @@ html ::-webkit-scrollbar-thumb:hover {
   transition-duration: 0.4s;
 }
 @media screen and (max-width: 575.9px) {
+  .science_and_technology .subscribe_area form .subscribe_form_area .subscribe_button {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .science_and_technology .subscribe_area form .subscribe_form_area .subscribe_button {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
   .science_and_technology .subscribe_area form .subscribe_form_area .subscribe_button {
     margin-left: 0px;
   }
